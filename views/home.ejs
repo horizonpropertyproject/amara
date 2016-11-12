@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title><% title %></title>
+<% include partials/head.ejs %>
+ 
+</head>
+<body class="homepage">
+<form>
+<span id="pagesdiv"></span>
+
+</form>
+<div class="modal fade" id="Sample_flat" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+   <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Actual Sample Flat</h4></center>
+      </div>
+<div class="modal-body>
+<div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg"></p>
+</div>
+ <div class="row">
+              <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form role="form" id="mfrm4" method="post">
+  <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+           <div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+       <div class="form-group form_country">
+        <select name="Country" class="form-control" id="cc" >
+         <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-group form_date"> 
+              <input type="dat" aria-describedby="basic-addon1" placeholder="Pick up Date" class="tcal tcalInput form-control" name="pickupdate1" id="date" >
+              </span></div>
+               <div class="form-group form_time_section"> 
+			  <select name="am" class="form-control" id="time_fix"><option value="Select">Select</option><option value="AM">AM</option><option value="PM">PM</option></select>
+            </div>
+             <div class="form-group form_time"> 
+			   <input type="tim" aria-describedby="basic-addon1" placeholder="Pick Up Time" class="form-control" name="pickuptime1" id="time">
+               </div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+</div>
+ <div class="form-group">
+    <div class="form-group" align="center">
+      <button id="send" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+   
+</form>
+</div>
+</div>
+
+<script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send").click(function(){      
+      var formData = $("#mfrm4").serialize();
+      $("#msg").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+				
+                                 $("#msg").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="visit_site" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Visit Site</h4></center>
+      </div>
+      <div class="modal-body">
+       
+<div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg1"></p>
+</div>
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm4_2" id="mfrm4_2" class="row" method="post">
+              <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+           <div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+       <div class="form-group form_country">
+        <select name="Country" class="form-control" id="cc" >
+         <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-group form_date"> 
+              <input type="dat" aria-describedby="basic-addon1" placeholder="Pick up Date" class="tcal tcalInput form-control" name="pickupdate1" id="date" >
+              </span></div>
+               <div class="form-group form_time_section"> 
+			  <select name="am" class="form-control" id="time_fix"><option value="Select">Select</option><option value="AM">AM</option><option value="PM">PM</option></select>
+            </div>
+             <div class="form-group form_time"> 
+			   <input type="tim" aria-describedby="basic-addon1" placeholder="Pick Up Time" class="form-control" name="pickuptime1" id="time">
+               </div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+           <div class="form-group">
+    <div class="form-group" align="center">
+      <button id="send1" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+     <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send1").click(function(){      
+      var formData = $("#mfrm4_2").serialize();
+      $("#msg1").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send1',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg1").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg1").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="home_presentation" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Home Presentation</h4></center>
+      </div>
+      <div class="modal-body">
+	  <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg2"></p>
+</div>
+	  
+    <div class="row">
+           <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm4_3" id="mfrm4_3" class="row" method="post">
+                  <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+           <div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+       <div class="form-group form_country">
+        <select name="Country" class="form-control" id="cc" >
+        <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-group form_date"> 
+              <input type="dat" aria-describedby="basic-addon1" placeholder="Pick up Date" class="tcal tcalInput form-control" name="pickupdate1" id="date" >
+              </span></div>
+               <div class="form-group form_time_section"> 
+			  <select name="am" class="form-control" id="time_fix"><option value="Select">Select</option><option value="AM">AM</option><option value="PM">PM</option></select>
+            </div>
+             <div class="form-group form_time"> 
+			   <input type="tim" aria-describedby="basic-addon1" placeholder="Pick Up Time" class="form-control" name="pickuptime1" id="time">
+               </div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+           <div class="form-group">
+    <div class="form-group" align="center">
+      <button id="send2" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+		<script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send2").click(function(){      
+      var formData = $("#mfrm4_3").serialize();
+      $("#msg2").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send2',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg2").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg2").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="reg" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Register Now</h4></center>
+      </div>
+      <div class="modal-body">
+       <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg3"></p>
+</div>
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2_1" id="mfrm2_1" class="row" method="post">
+                 <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+        <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+          <div class="form-group" align="center">
+      <button id="send3" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+     	<script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send3").click(function(){      
+      var formData = $("#mfrm2_1").serialize();
+      $("#msg3").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send3',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg3").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg3").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="download" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Download Broucher</h4></center>
+      </div>
+      <div class="modal-body">
+        <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg4"></p>
+</div>
+        <div class="row">
+         <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2_2" id="mfrm2_2" class="row" method="post">
+                  <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+          <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+          <div class="form-group" align="center">
+      <button id="send4" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+      <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send4").click(function(){      
+      var formData = $("#mfrm2_2").serialize();
+      $("#msg4").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send4',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg4").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg4").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="latest_price" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Get Latest Price</h4></center>
+      </div>
+      <div class="modal-body">
+         <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg5"></p>
+</div>
+        <div class="row">
+            <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2_3" id="mfrm2_3" class="row" method="post">
+                    <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+          <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+           <div class="form-group" align="center">
+      <button id="send5" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+       <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send5").click(function(){      
+      var formData = $("#mfrm2_3").serialize();
+      $("#msg5").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send5',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg5").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg5").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="tour" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Virtual Tour</h4></center>
+      </div>
+      <div class="modal-body">
+         <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg6"></p>
+</div>
+        <div class="row">
+            <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2_4" id="mfrm2_4" class="row" method="post">
+                    <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+          <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+           <div class="form-group" align="center">
+      <button id="send6" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+      <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send6").click(function(){      
+      var formData = $("#mfrm2_4").serialize();
+      $("#msg6").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send6',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg6").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg6").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myonline" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Book Online</h4></center>
+      </div>
+      <div class="modal-body">
+       <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg7"></p>
+</div>
+        <div class="row">
+            <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2_5" id="mfrm2_5" class="row" method="post">
+                 <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+          <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1.5 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+          <div class="form-group" align="center">
+      <button id="send7" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+     <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send7").click(function(){      
+      var formData = $("#mfrm2_5").serialize();
+      $("#msg7").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send7',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg7").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg7").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="group_booking" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Group Booking</h4></center>
+      </div>
+      <div class="modal-body">
+        <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg8"></p>
+</div>
+        <div class="row">
+           <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2_6" id="mfrm2_6" class="row" method="post">
+                <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+         <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+          <div class="form-group" align="center">
+      <button id="send8" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+      <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send8").click(function(){      
+      var formData = $("#mfrm2_6").serialize();
+      $("#msg8").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send8',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg8").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg8").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myonline1" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">Get Instant Call Back</h4></center>
+      </div>
+      <div class="modal-body">
+       <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg9"></p>
+</div>
+        <div class="row">
+           <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2_7" id="mfrm2_7" class="row" method="post">
+                  <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+       <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+          <div class="form-group" align="center">
+      <button id="send9" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+        <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send9").click(function(){      
+      var formData = $("#mfrm2_7").serialize();
+      $("#msg9").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send9',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg9").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg9").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog col-xs-12 modal_scroll">  
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <center><h4 class="modal-title">For Enquiry</h4></center>
+      </div>
+      <div class="modal-body">
+       <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg10"></p>
+</div>
+        <div class="row">
+           <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+        <form name="mfrm2" id="mfrm2" class="row" method="post">
+                <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
+<div class="form-group">
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+          </div>
+           <div class=" form-group form_country">
+ <select name="Country" class="form-control" id="cc" >
+          <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class=" form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+ <div class="form-group">
+          <select name="type" class="form-control" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+</select></div>
+<div class="form-control antispam">
+                <input type="text" class="form-control" name="url" placeholder="url"/>
+              </div>
+          <div class="form-group">
+            <label>
+              <input type="checkbox" name="accept" id="accept" checked>
+              I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+          </div>
+          <div class="form-group" align="center">
+      <button id="send10" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+        </form>
+        </div></div>
+       <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send10").click(function(){      
+      var formData = $("#mfrm2").serialize();
+      $("#msg10").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send10',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg10").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg10").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalCallBack" role="dialog">
+      <div class="modal-dialog col-xs-12 modal_scroll">
+      <div class="modal-content">
+          <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span class="close">&times;</span> </button>
+        <div class="modal-title">
+        <center><span aria-hidden="true">Call Us </span></center></div>      </div>
+          <div class="modal-body">
+		   <div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg11"></p>
+</div>
+        <div class="clearfix"></div>
+        <div class="clearfix"></div>
+        <div class="row">
+              <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 col-sm-offset-1 col-md-offset-1 col-xs-offset-1 col-lg-offset-1">
+            <form name="mfrm3" id="mfrm3" class="row" method="post">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+            </div>
+           
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email Address">
+            </div>
+             <div class="form-group form_country">
+        
+ <select name="Country" class="form-control" id="cc" >
+             <option value="India +91">India +91</option> 
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+<option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+ </select>
+ </div>
+  <div class="form-group form_mob">
+ <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+          </div>
+             
+       <div class="form-control antispam">
+                       <input type="text" class="form-control" name="url" placeholder="url"/>
+       </div>
+       <div class="form-group">
+        <label>
+                <input type="checkbox" name="accept" id="accept" checked>
+                I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a> and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+        </div>
+            <div class="form-group" align="center">
+            <div class="form-group" align="center">
+      <button id="send11" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+          </form>
+          </div>
+          </div>
+		    <script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send11").click(function(){      
+      var formData = $("#mfrm3").serialize();
+      $("#msg11").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send11',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg11").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg11").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script> </div> </div><div class="clearfix"></div></div></div></div>
+<div class="container-fluid clearfix navbar-fixed-top header_image" style="border-bottom:2px solid #C93;">
+<header id="header">
+    <div class="row">
+<section id="logo"><a href="/"> <img src="images/logo.png.png" title="lodha amara logo" alt="lodha amara codename Megastar logo"/> </a></section>
+     <section id="contact1">
+     <ul class="contact-info"><li style="color:#000; font-weight:900; font-size:14px"><a href="tel://+919833717888"><i class="icon-phone hidden-xs hidden-sm"></i>
+9833717888</a></li>
+     <li><a href="tel://+919833719888"><i class="icon-phone hidden-xs hidden-sm"></i>
+9833719888</a></li>
+
+</li>
+     </ul>
+     </section>
+    <section id="nav-container">  
+     <nav id="nav">   
+        <ul>
+           <li><a href="#home">Home</a></li>
+          <li> <a href="#amenities">Amenities</a></li>
+          <li><a href="#floor-plan">Floor Plan</a></li>
+          <li><a href="#price">Price</a></li>
+          <li><a href="#nri">NRI Corner</a></li>
+          <li><a href="#location">Location</a></li>
+		  <li><a href="#blog">Blog</a></li>
+     </ul>
+      </nav>
+    </section>
+  <div id="dl-menu" class='dl-menuwrapper'>
+      <button class="dl-trigger">Open Menu</button>
+      <ul class="dl-menu">
+        <li><a href="#home">Home</a></li>
+          <li> <a href="#amenities">Amenities</a></li>
+          <li><a href="#floor-plan">Floor Plan</a></li>
+          <li><a href="#price">Price</a></li>
+          <li><a href="#nri">NRI Corner</a></li>
+         <li><a href="#blog">Blog</a></li>
+        
+ </ul>
+    </div>
+    </div>
+    </div>
+  </header></div>
+<script type="text/javascript">(function(g,h,c,j,d,k,l){/*! Jssor */
+new(function(){});var e={ud:function(a){return-c.cos(a*c.PI)/2+.5},ld:function(a){return a},Le:function(a){return a*a},Oc:function(a){return-a*(a-2)},Me:function(a){return(a*=2)<1?1/2*a*a:-1/2*(--a*(a-2)-1)},Ne:function(a){return a*a*a},Oe:function(a){return(a-=1)*a*a+1},Pe:function(a){return(a*=2)<1?1/2*a*a*a:1/2*((a-=2)*a*a+2)},Qe:function(a){return a*a*a*a},Re:function(a){return-((a-=1)*a*a*a-1)},Se:function(a){return(a*=2)<1?1/2*a*a*a*a:-1/2*((a-=2)*a*a*a-2)},Te:function(a){return a*a*a*a*a},Ue:function(a){return(a-=1)*a*a*a*a+1},Ve:function(a){return(a*=2)<1?1/2*a*a*a*a*a:1/2*((a-=2)*a*a*a*a+2)},Xe:function(a){return 1-c.cos(c.PI/2*a)},lf:function(a){return c.sin(c.PI/2*a)},Ye:function(a){return-1/2*(c.cos(c.PI*a)-1)},Ze:function(a){return a==0?0:c.pow(2,10*(a-1))},af:function(a){return a==1?1:-c.pow(2,-10*a)+1},bf:function(a){return a==0||a==1?a:(a*=2)<1?1/2*c.pow(2,10*(a-1)):1/2*(-c.pow(2,-10*--a)+2)},cf:function(a){return-(c.sqrt(1-a*a)-1)},df:function(a){return c.sqrt(1-(a-=1)*a)},ef:function(a){return(a*=2)<1?-1/2*(c.sqrt(1-a*a)-1):1/2*(c.sqrt(1-(a-=2)*a)+1)},ff:function(a){if(!a||a==1)return a;var b=.3,d=.075;return-(c.pow(2,10*(a-=1))*c.sin((a-d)*2*c.PI/b))},gf:function(a){if(!a||a==1)return a;var b=.3,d=.075;return c.pow(2,-10*a)*c.sin((a-d)*2*c.PI/b)+1},hf:function(a){if(!a||a==1)return a;var b=.45,d=.1125;return(a*=2)<1?-.5*c.pow(2,10*(a-=1))*c.sin((a-d)*2*c.PI/b):c.pow(2,-10*(a-=1))*c.sin((a-d)*2*c.PI/b)*.5+1},jf:function(a){var b=1.70158;return a*a*((b+1)*a-b)},kf:function(a){var b=1.70158;return(a-=1)*a*((b+1)*a+b)+1},Ke:function(a){var b=1.70158;return(a*=2)<1?1/2*a*a*(((b*=1.525)+1)*a-b):1/2*((a-=2)*a*(((b*=1.525)+1)*a+b)+2)},cd:function(a){return 1-e.ic(1-a)},ic:function(a){return a<1/2.75?7.5625*a*a:a<2/2.75?7.5625*(a-=1.5/2.75)*a+.75:a<2.5/2.75?7.5625*(a-=2.25/2.75)*a+.9375:7.5625*(a-=2.625/2.75)*a+.984375},We:function(a){return a<1/2?e.cd(a*2)*.5:e.ic(a*2-1)*.5+.5},Je:function(){return 1-c.abs(1)},te:function(a){return 1-c.cos(a*c.PI*2)},he:function(a){return c.sin(a*c.PI*2)},ie:function(a){return 1-((a*=2)<1?(a=1-a)*a*a:(a-=1)*a*a)},je:function(a){return(a*=2)<1?a*a*a:(a=2-a)*a*a}},f={ke:e.ud,le:e.ld,me:e.Le,ne:e.Oc,oe:e.Me,pe:e.Ne,qe:e.Oe,re:e.Pe,se:e.Qe,ue:e.Re,He:e.Se,ve:e.Te,Qc:e.Ue,we:e.Ve,xe:e.Xe,ye:e.lf,ze:e.Ye,Ae:e.Ze,Be:e.af,Ce:e.bf,De:e.cf,Ee:e.df,Fe:e.ef,nf:e.ff,Ie:e.gf,mf:e.hf,pf:e.jf,of:e.kf,Uf:e.Ke,Vf:e.cd,Wf:e.ic,Xf:e.We,Yf:e.Je,Zf:e.te,ag:e.he,bg:e.ie,cg:e.je};var b=new function(){var f=this,Ab=/\S+/g,F=1,yb=2,fb=3,eb=4,jb=5,G,r=0,i=0,s=0,X=0,z=0,I=navigator,ob=I.appName,o=I.userAgent,p=parseFloat;function Ib(){if(!G){G={eg:"ontouchstart"in g||"createTouch"in h};var a;if(I.pointerEnabled||(a=I.msPointerEnabled))G.sd=a?"msTouchAction":"touchAction"}return G}function v(j){if(!r){r=-1;if(ob=="Microsoft Internet Explorer"&&!!g.attachEvent&&!!g.ActiveXObject){var e=o.indexOf("MSIE");r=F;s=p(o.substring(e+5,o.indexOf(";",e)));/*@cc_on X=@_jscript_version@*/;i=h.documentMode||s}else if(ob=="Netscape"&&!!g.addEventListener){var d=o.indexOf("Firefox"),b=o.indexOf("Safari"),f=o.indexOf("Chrome"),c=o.indexOf("AppleWebKit");if(d>=0){r=yb;i=p(o.substring(d+8))}else if(b>=0){var k=o.substring(0,b).lastIndexOf("/");r=f>=0?eb:fb;i=p(o.substring(k+1,b))}else{var a=/Trident\/.*rv:([0-9]{1,}[\.0-9]{0,})/i.exec(o);if(a){r=F;i=s=p(a[1])}}if(c>=0)z=p(o.substring(c+12))}else{var a=/(opera)(?:.*version|)[ \/]([\w.]+)/i.exec(o);if(a){r=jb;i=p(a[2])}}}return j==r}function q(){return v(F)}function Q(){return q()&&(i<6||h.compatMode=="BackCompat")}function db(){return v(fb)}function ib(){return v(jb)}function vb(){return db()&&z>534&&z<535}function J(){v();return z>537||i>42||r==F&&i>=11}function O(){return q()&&i<9}function wb(a){var b,c;return function(f){if(!b){b=d;var e=a.substr(0,1).toUpperCase()+a.substr(1);n([a].concat(["WebKit","ms","Moz","O","webkit"]),function(g,d){var b=a;if(d)b=g+e;if(f.style[b]!=l)return c=b})}return c}}function ub(b){var a;return function(c){a=a||wb(b)(c)||b;return a}}var K=ub("transform");function nb(a){return{}.toString.call(a)}var kb={};n(["Boolean","Number","String","Function","Array","Date","RegExp","Object"],function(a){kb["[object "+a+"]"]=a.toLowerCase()});function n(b,d){var a,c;if(nb(b)=="[object Array]"){for(a=0;a<b.length;a++)if(c=d(b[a],a,b))return c}else for(a in b)if(c=d(b[a],a,b))return c}function C(a){return a==j?String(a):kb[nb(a)]||"object"}function lb(a){for(var b in a)return d}function A(a){try{return C(a)=="object"&&!a.nodeType&&a!=a.window&&(!a.constructor||{}.hasOwnProperty.call(a.constructor.prototype,"isPrototypeOf"))}catch(b){}}function u(a,b){return{x:a,y:b}}function rb(b,a){setTimeout(b,a||0)}function H(b,d,c){var a=!b||b=="inherit"?"":b;n(d,function(c){var b=c.exec(a);if(b){var d=a.substr(0,b.index),e=a.substr(b.index+b[0].length+1,a.length-1);a=d+e}});a=c+(!a.indexOf(" ")?"":" ")+a;return a}function tb(b,a){if(i<9)b.style.filter=a}f.Rf=Ib;f.Nc=q;f.qf=db;f.tf=J;f.xc=O;wb("transform");f.Cc=function(){return i};f.Bc=rb;function Y(a){a.constructor===Y.caller&&a.Ic&&a.Ic.apply(a,Y.caller.arguments)}f.Ic=Y;f.ob=function(a){if(f.xf(a))a=h.getElementById(a);return a};function t(a){return a||g.event}f.Lc=t;f.hc=function(b){b=t(b);var a=b.target||b.srcElement||h;if(a.nodeType==3)a=f.Ec(a);return a};f.Gc=function(a){a=t(a);return{x:a.pageX||a.clientX||0,y:a.pageY||a.clientY||0}};function D(c,d,a){if(a!==l)c.style[d]=a==l?"":a;else{var b=c.currentStyle||c.style;a=b[d];if(a==""&&g.getComputedStyle){b=c.ownerDocument.defaultView.getComputedStyle(c,j);b&&(a=b.getPropertyValue(d)||b[d])}return a}}function ab(b,c,a,d){if(a!==l){if(a==j)a="";else d&&(a+="px");D(b,c,a)}else return p(D(b,c))}function m(c,a){var d=a?ab:D,b;if(a&4)b=ub(c);return function(e,f){return d(e,b?b(e):c,f,a&2)}}function Db(b){if(q()&&s<9){var a=/opacity=([^)]*)/.exec(b.style.filter||"");return a?p(a[1])/100:1}else return p(b.style.opacity||"1")}function Fb(b,a,f){if(q()&&s<9){var h=b.style.filter||"",i=new RegExp(/[\s]*alpha\([^\)]*\)/g),e=c.round(100*a),d="";if(e<100||f)d="alpha(opacity="+e+") ";var g=H(h,[i],d);tb(b,g)}else b.style.opacity=a==1?"":c.round(a*100)/100}var L={ab:["rotate"],K:["rotateX"],M:["rotateY"],Kb:["skewX"],Lb:["skewY"]};if(!J())L=B(L,{z:["scaleX",2],n:["scaleY",2],P:["translateZ",1]});function M(d,a){var c="";if(a){if(q()&&i&&i<10){delete a.K;delete a.M;delete a.P}b.c(a,function(d,b){var a=L[b];if(a){var e=a[1]||0;if(N[b]!=d)c+=" "+a[0]+"("+d+(["deg","px",""])[e]+")"}});if(J()){if(a.bb||a.fb||a.P)c+=" translate3d("+(a.bb||0)+"px,"+(a.fb||0)+"px,"+(a.P||0)+"px)";if(a.z==l)a.z=1;if(a.n==l)a.n=1;if(a.z!=1||a.n!=1)c+=" scale3d("+a.z+", "+a.n+", 1)"}}d.style[K(d)]=c}f.Jc=m("transformOrigin",4);f.fe=m("backfaceVisibility",4);f.Af=m("transformStyle",4);f.Bf=m("perspective",6);f.Cf=m("perspectiveOrigin",4);f.Df=function(a,b){if(q()&&s<9||s<10&&Q())a.style.zoom=b==1?"":b;else{var c=K(a),f="scale("+b+")",e=a.style[c],g=new RegExp(/[\s]*scale\(.*?\)/g),d=H(e,[g],f);a.style[c]=d}};f.kc=function(b,a){return function(c){c=t(c);var e=c.type,d=c.relatedTarget||(e=="mouseout"?c.toElement:c.fromElement);(!d||d!==a&&!f.Ef(a,d))&&b(c)}};f.a=function(a,d,b,c){a=f.ob(a);if(a.addEventListener){d=="mousewheel"&&a.addEventListener("DOMMouseScroll",b,c);a.addEventListener(d,b,c)}else if(a.attachEvent){a.attachEvent("on"+d,b);c&&a.setCapture&&a.setCapture()}};f.H=function(a,c,d,b){a=f.ob(a);if(a.removeEventListener){c=="mousewheel"&&a.removeEventListener("DOMMouseScroll",d,b);a.removeEventListener(c,d,b)}else if(a.detachEvent){a.detachEvent("on"+c,d);b&&a.releaseCapture&&a.releaseCapture()}};f.Nb=function(a){a=t(a);a.preventDefault&&a.preventDefault();a.cancel=d;a.returnValue=k};f.Gf=function(a){a=t(a);a.stopPropagation&&a.stopPropagation();a.cancelBubble=d};f.G=function(d,c){var a=[].slice.call(arguments,2),b=function(){var b=a.concat([].slice.call(arguments,0));return c.apply(d,b)};return b};f.Hf=function(a,b){if(b==l)return a.textContent||a.innerText;var c=h.createTextNode(b);f.fc(a);a.appendChild(c)};f.yb=function(d,c){for(var b=[],a=d.firstChild;a;a=a.nextSibling)(c||a.nodeType==1)&&b.push(a);return b};function mb(a,c,e,b){b=b||"u";for(a=a?a.firstChild:j;a;a=a.nextSibling)if(a.nodeType==1){if(U(a,b)==c)return a;if(!e){var d=mb(a,c,e,b);if(d)return d}}}f.B=mb;function S(a,d,f,b){b=b||"u";var c=[];for(a=a?a.firstChild:j;a;a=a.nextSibling)if(a.nodeType==1){U(a,b)==d&&c.push(a);if(!f){var e=S(a,d,f,b);if(e.length)c=c.concat(e)}}return c}function gb(a,c,d){for(a=a?a.firstChild:j;a;a=a.nextSibling)if(a.nodeType==1){if(a.tagName==c)return a;if(!d){var b=gb(a,c,d);if(b)return b}}}f.Lf=gb;f.Mf=function(b,a){return b.getElementsByTagName(a)};function B(){var e=arguments,d,c,b,a,g=1&e[0],f=1+g;d=e[f-1]||{};for(;f<e.length;f++)if(c=e[f])for(b in c){a=c[b];if(a!==l){a=c[b];var h=d[b];d[b]=g&&(A(h)||A(a))?B(g,{},h,a):a}}return d}f.J=B;function Z(f,g){var d={},c,a,b;for(c in f){a=f[c];b=g[c];if(a!==b){var e;if(A(a)&&A(b)){a=Z(a,b);e=!lb(a)}!e&&(d[c]=a)}}return d}f.wc=function(a){return C(a)=="function"};f.xf=function(a){return C(a)=="string"};f.Zb=function(a){return!isNaN(p(a))&&isFinite(a)};f.c=n;f.Pf=A;function R(a){return h.createElement(a)}f.Ab=function(){return R("DIV")};f.Ge=function(){return R("SPAN")};f.Mc=function(){};function V(b,c,a){if(a==l)return b.getAttribute(c);b.setAttribute(c,a)}function U(a,b){return V(a,b)||V(a,"data-"+b)}f.p=V;f.g=U;function x(b,a){if(a==l)return b.className;b.className=a}f.tc=x;function qb(b){var a={};n(b,function(b){a[b]=b});return a}function sb(b,a){return b.match(a||Ab)}function P(b,a){return qb(sb(b||"",a))}f.yd=sb;function bb(b,c){var a="";n(c,function(c){a&&(a+=b);a+=c});return a}function E(a,c,b){x(a,bb(" ",B(Z(P(x(a)),P(c)),P(b))))}f.Ec=function(a){return a.parentNode};f.L=function(a){f.Q(a,"none")};f.S=function(a,b){f.Q(a,b?"none":"")};f.Dd=function(b,a){b.removeAttribute(a)};f.Yd=function(){return q()&&i<10};f.Od=function(d,a){if(a)d.style.clip="rect("+c.round(a.i||a.q||0)+"px "+c.round(a.C)+"px "+c.round(a.D)+"px "+c.round(a.j||a.v||0)+"px)";else if(a!==l){var g=d.style.cssText,f=[new RegExp(/[\s]*clip: rect\(.*?\)[;]?/i),new RegExp(/[\s]*cliptop: .*?[;]?/i),new RegExp(/[\s]*clipright: .*?[;]?/i),new RegExp(/[\s]*clipbottom: .*?[;]?/i),new RegExp(/[\s]*clipleft: .*?[;]?/i)],e=H(g,f,"");b.Mb(d,e)}};f.V=function(){return+new Date};f.U=function(b,a){b.appendChild(a)};f.Eb=function(b,a,c){(c||a.parentNode).insertBefore(b,a)};f.Fb=function(b,a){a=a||b.parentNode;a&&a.removeChild(b)};f.Fd=function(a,b){n(a,function(a){f.Fb(a,b)})};f.fc=function(a){f.Fd(f.yb(a,d),a)};f.Hd=function(a,b){var c=f.Ec(a);b&1&&f.E(a,(f.l(c)-f.l(a))/2);b&2&&f.A(a,(f.m(c)-f.m(a))/2)};f.Wb=function(b,a){return parseInt(b,a||10)};f.ee=p;f.Ef=function(b,a){var c=h.body;while(a&&b!==a&&c!==a)try{a=a.parentNode}catch(d){return k}return b===a};function W(d,c,b){var a=d.cloneNode(!c);!b&&f.Dd(a,"id");return a}f.lb=W;f.nb=function(e,g){var a=new Image;function b(e,d){f.H(a,"load",b);f.H(a,"abort",c);f.H(a,"error",c);g&&g(a,d)}function c(a){b(a,d)}if(ib()&&i<11.6||!e)b(!e);else{f.a(a,"load",b);f.a(a,"abort",c);f.a(a,"error",c);a.src=e}};f.Id=function(d,a,e){var c=d.length+1;function b(b){c--;if(a&&b&&b.src==a.src)a=b;!c&&e&&e(a)}n(d,function(a){f.nb(a.src,b)});b()};f.Jd=function(a,g,i,h){if(h)a=W(a);var c=S(a,g);if(!c.length)c=b.Mf(a,g);for(var f=c.length-1;f>-1;f--){var d=c[f],e=W(i);x(e,x(d));b.Mb(e,d.style.cssText);b.Eb(e,d);b.Fb(d)}return a};function Gb(a){var k=this,p="",r=["av","pv","ds","dn"],e=[],q,j=0,g=0,d=0;function i(){E(a,q,e[d||j||g&2||g]);b.W(a,"pointer-events",d?"none":"")}function c(){j=0;i();f.H(h,"mouseup",c);f.H(h,"touchend",c);f.H(h,"touchcancel",c)}function o(a){if(d)f.Nb(a);else{j=4;i();f.a(h,"mouseup",c);f.a(h,"touchend",c);f.a(h,"touchcancel",c)}}k.Kd=function(a){if(a===l)return g;g=a&2||a&1;i()};k.qd=function(a){if(a===l)return!d;d=a?0:3;i()};k.X=a=f.ob(a);var m=b.yd(x(a));if(m)p=m.shift();n(r,function(a){e.push(p+a)});q=bb(" ",e);e.unshift("");f.a(a,"mousedown",o);f.a(a,"touchstart",o)}f.nc=function(a){return new Gb(a)};f.W=D;f.Db=m("overflow");f.A=m("top",2);f.E=m("left",2);f.l=m("width",2);f.m=m("height",2);f.Md=m("marginLeft",2);f.Nd=m("marginTop",2);f.F=m("position");f.Q=m("display");f.s=m("zIndex",1);f.pc=function(b,a,c){if(a!=l)Fb(b,a,c);else return Db(b)};f.Mb=function(a,b){if(b!=l)a.style.cssText=b;else return a.style.cssText};var T={kb:f.pc,i:f.A,j:f.E,jb:f.l,ib:f.m,hb:f.F,Ag:f.Q,gb:f.s};function w(g,k){var e=O(),b=J(),d=vb(),h=K(g);function i(b,d,a){var e=b.eb(u(-d/2,-a/2)),f=b.eb(u(d/2,-a/2)),g=b.eb(u(d/2,a/2)),h=b.eb(u(-d/2,a/2));b.eb(u(300,300));return u(c.min(e.x,f.x,g.x,h.x)+d/2,c.min(e.y,f.y,g.y,h.y)+a/2)}function a(d,a){a=a||{};var n=a.P||0,p=(a.K||0)%360,q=(a.M||0)%360,u=(a.ab||0)%360,k=a.z,m=a.n,g=a.zg;if(k==l)k=1;if(m==l)m=1;if(g==l)g=1;if(e){n=0;p=0;q=0;g=0}var c=new Cb(a.bb,a.fb,n);c.K(p);c.M(q);c.Sd(u);c.Td(a.Kb,a.Lb);c.oc(k,m,g);if(b){c.pb(a.v,a.q);d.style[h]=c.Ud()}else if(!X||X<9){var o="",j={x:0,y:0};if(a.N)j=i(c,a.N,a.Z);f.Nd(d,j.y);f.Md(d,j.x);o=c.Vd();var s=d.style.filter,t=new RegExp(/[\s]*progid:DXImageTransform\.Microsoft\.Matrix\([^\)]*\)/g),r=H(s,[t],o);tb(d,r)}}w=function(e,c){c=c||{};var h=c.v,i=c.q,g;n(T,function(a,b){g=c[b];g!==l&&a(e,g)});f.Od(e,c.f);if(!b){h!=l&&f.E(e,(c.Sc||0)+h);i!=l&&f.A(e,(c.Tc||0)+i)}if(c.Wd)if(d)rb(f.G(j,M,e,c));else a(e,c)};f.Pb=M;if(d)f.Pb=w;if(e)f.Pb=a;else if(!b)a=M;f.T=w;w(g,k)}f.Pb=w;f.T=w;function Cb(i,k,o){var d=this,b=[1,0,0,0,0,1,0,0,0,0,1,0,i||0,k||0,o||0,1],h=c.sin,g=c.cos,l=c.tan;function f(a){return a*c.PI/180}function n(a,b){return{x:a,y:b}}function m(c,e,l,m,o,r,t,u,w,z,A,C,E,b,f,k,a,g,i,n,p,q,s,v,x,y,B,D,F,d,h,j){return[c*a+e*p+l*x+m*F,c*g+e*q+l*y+m*d,c*i+e*s+l*B+m*h,c*n+e*v+l*D+m*j,o*a+r*p+t*x+u*F,o*g+r*q+t*y+u*d,o*i+r*s+t*B+u*h,o*n+r*v+t*D+u*j,w*a+z*p+A*x+C*F,w*g+z*q+A*y+C*d,w*i+z*s+A*B+C*h,w*n+z*v+A*D+C*j,E*a+b*p+f*x+k*F,E*g+b*q+f*y+k*d,E*i+b*s+f*B+k*h,E*n+b*v+f*D+k*j]}function e(c,a){return m.apply(j,(a||b).concat(c))}d.oc=function(a,c,d){if(a!=1||c!=1||d!=1)b=e([a,0,0,0,0,c,0,0,0,0,d,0,0,0,0,1])};d.pb=function(a,c,d){b[12]+=a||0;b[13]+=c||0;b[14]+=d||0};d.K=function(c){if(c){a=f(c);var d=g(a),i=h(a);b=e([1,0,0,0,0,d,i,0,0,-i,d,0,0,0,0,1])}};d.M=function(c){if(c){a=f(c);var d=g(a),i=h(a);b=e([d,0,-i,0,0,1,0,0,i,0,d,0,0,0,0,1])}};d.Sd=function(c){if(c){a=f(c);var d=g(a),i=h(a);b=e([d,i,0,0,-i,d,0,0,0,0,1,0,0,0,0,1])}};d.Td=function(a,c){if(a||c){i=f(a);k=f(c);b=e([1,l(k),0,0,l(i),1,0,0,0,0,1,0,0,0,0,1])}};d.eb=function(c){var a=e(b,[1,0,0,0,0,1,0,0,0,0,1,0,c.x,c.y,0,1]);return n(a[12],a[13])};d.Ud=function(){return"matrix3d("+b.join(",")+")"};d.Vd=function(){return"progid:DXImageTransform.Microsoft.Matrix(M11="+b[0]+", M12="+b[4]+", M21="+b[1]+", M22="+b[5]+", SizingMethod='auto expand')"}}new function(){var a=this;function b(d,g){for(var j=d[0].length,i=d.length,h=g[0].length,f=[],c=0;c<i;c++)for(var k=f[c]=[],b=0;b<h;b++){for(var e=0,a=0;a<j;a++)e+=d[c][a]*g[a][b];k[b]=e}return f}a.z=function(b,c){return a.Zc(b,c,0)};a.n=function(b,c){return a.Zc(b,0,c)};a.Zc=function(a,c,d){return b(a,[[c,0],[0,d]])};a.eb=function(d,c){var a=b(d,[[c.x],[c.y]]);return u(a[0][0],a[1][0])}};var N={Sc:0,Tc:0,v:0,q:0,Y:1,z:1,n:1,ab:0,K:0,M:0,bb:0,fb:0,P:0,Kb:0,Lb:0};f.bd=function(a){var c=a||{};if(a)if(b.wc(a))c={lc:c};else if(b.wc(a.f))c.f={lc:a.f};return c};function pb(c,a){var b={};n(c,function(c,d){var e=c;if(a[d]!=l)if(f.Zb(c))e=c+a[d];else e=pb(c,a[d]);b[d]=e});return b}f.be=pb;f.Ed=function(k,m,x,q,z,A,n){var a=m;if(k){a={};for(var g in m){var B=A[g]||1,w=z[g]||[0,1],f=(x-w[0])/w[1];f=c.min(c.max(f,0),1);f=f*B;var u=c.floor(f);if(f!=u)f-=u;var h=q.lc||e.ud,i,C=k[g],o=m[g];if(b.Zb(o)){h=q[g]||h;var y=h(f);i=C+o*y}else{i=b.J({Hb:{}},k[g]);var v=q[g]||{};b.c(o.Hb||o,function(d,a){h=v[a]||v.lc||h;var c=h(f),b=d*c;i.Hb[a]=b;i[a]+=b})}a[g]=i}var t=b.c(m,function(b,a){return N[a]!=l});t&&b.c(N,function(c,b){if(a[b]==l&&k[b]!==l)a[b]=k[b]});if(t){if(a.Y)a.z=a.n=a.Y;a.N=n.N;a.Z=n.Z;a.Wd=d}}if(m.f&&n.pb){var p=a.f.Hb,s=(p.i||0)+(p.D||0),r=(p.j||0)+(p.C||0);a.j=(a.j||0)+r;a.i=(a.i||0)+s;a.f.j-=r;a.f.C-=r;a.f.i-=s;a.f.D-=s}if(a.f&&b.Yd()&&!a.f.i&&!a.f.j&&!a.f.q&&!a.f.v&&a.f.C==n.N&&a.f.D==n.Z)a.f=j;return a}};function n(){var a=this,d=[];function i(a,b){d.push({jc:a,Yb:b})}function h(a,c){b.c(d,function(b,e){b.jc==a&&b.Yb===c&&d.splice(e,1)})}a.xb=a.addEventListener=i;a.removeEventListener=h;a.k=function(a){var c=[].slice.call(arguments,1);b.c(d,function(b){b.jc==a&&b.Yb.apply(g,c)})}}var m=function(z,C,i,J,M,L){z=z||0;var a=this,q,n,o,u,A=0,G,H,F,B,y=0,h=0,m=0,D,l,f,e,p,w=[],x;function O(a){f+=a;e+=a;l+=a;h+=a;m+=a;y+=a}function t(o){var g=o;if(p&&(g>=e||g<=f))g=((g-f)%p+p)%p+f;if(!D||u||h!=g){var j=c.min(g,e);j=c.max(j,f);if(!D||u||j!=m){if(L){var k=(j-l)/(C||1);if(i.zd)k=1-k;var n=b.Ed(M,L,k,G,F,H,i);if(x)b.c(n,function(b,a){x[a]&&x[a](J,b)});else b.T(J,n)}a.ec(m-l,j-l);m=j;b.c(w,function(b,c){var a=o<h?w[w.length-c-1]:b;a.u(m-y)});var r=h,q=m;h=g;D=d;a.Ib(r,q)}}}function E(a,b,d){b&&a.Bb(e);if(!d){f=c.min(f,a.dc()+y);e=c.max(e,a.Gb()+y)}w.push(a)}var r=g.requestAnimationFrame||g.webkitRequestAnimationFrame||g.mozRequestAnimationFrame||g.msRequestAnimationFrame;if(b.qf()&&b.Cc()<7)r=j;r=r||function(a){b.Bc(a,i.Yc)};function I(){if(q){var d=b.V(),e=c.min(d-A,i.Xc),a=h+e*o;A=d;if(a*o>=n*o)a=n;t(a);if(!u&&a*o>=n*o)K(B);else r(I)}}function s(g,i,j){if(!q){q=d;u=j;B=i;g=c.max(g,f);g=c.min(g,e);n=g;o=n<h?-1:1;a.Wc();A=b.V();r(I)}}function K(b){if(q){u=q=B=k;a.Vc();b&&b()}}a.Uc=function(a,b,c){s(a?h+a:e,b,c)};a.Rc=s;a.cb=K;a.Bd=function(a){s(a)};a.R=function(){return h};a.hd=function(){return n};a.rb=function(){return m};a.u=t;a.pb=function(a){t(h+a)};a.od=function(){return q};a.xd=function(a){p=a};a.Bb=O;a.vb=function(a,b){E(a,0,b)};a.bc=function(a){E(a,1)};a.Ff=function(a){e+=a};a.dc=function(){return f};a.Gb=function(){return e};a.Ib=a.Wc=a.Vc=a.ec=b.Mc;a.rc=b.V();i=b.J({Yc:16,Xc:50},i);p=i.Fc;x=i.wf;f=l=z;e=z+C;H=i.vf||{};F=i.uf||{};G=b.bd(i.O)};new(function(){});var i=function(p,fc){var f=this;function Bc(){var a=this;m.call(a,-1e8,2e8);a.Tf=function(){var b=a.rb(),d=c.floor(b),f=t(d),e=b-c.floor(b);return{db:f,Qf:d,hb:e}};a.Ib=function(b,a){var e=c.floor(a);if(e!=a&&a>b)e++;Tb(e,d);f.k(i.Sf,t(a),t(b),a,b)}}function Ac(){var a=this;m.call(a,0,0,{Fc:r});b.c(C,function(b){D&1&&b.xd(r);a.bc(b);b.Bb(kb/bc)})}function zc(){var a=this,b=Ub.X;m.call(a,-1,2,{O:e.ld,wf:{hb:Zb},Fc:r},b,{hb:1},{hb:-2});a.mc=b}function mc(o,n){var b=this,e,g,h,l,c;m.call(b,-1e8,2e8,{Xc:100});b.Wc=function(){M=d;R=j;f.k(i.sf,t(w.R()),w.R())};b.Vc=function(){M=k;l=k;var a=w.Tf();f.k(i.yf,t(w.R()),w.R());!a.hb&&Dc(a.Qf,s)};b.Ib=function(i,f){var b;if(l)b=c;else{b=g;if(h){var d=f/h;b=a.Hc(d)*(g-e)+e}}w.u(b)};b.Ob=function(a,d,c,f){e=a;g=d;h=c;w.u(a);b.u(0);b.Rc(c,f)};b.zf=function(a){l=d;c=a;b.Uc(a,j,d)};b.sg=function(a){c=a};w=new Bc;w.vb(o);w.vb(n)}function oc(){var c=this,a=Xb();b.s(a,0);b.W(a,"pointerEvents","none");c.X=a;c.zb=function(){b.L(a);b.fc(a)}}function xc(o,g){var e=this,q,M,v,l,y=[],x,B,W,H,S,F,h,w,p;m.call(e,-u,u+1,{});function E(a){q&&q.Pc();T(o,a,0);F=d;q=new I.I(o,I,b.ee(b.g(o,"idle"))||lc);q.u(0)}function Z(){q.rc<I.rc&&E()}function O(p,r,o){if(!H){H=d;if(l&&o){var h=o.width,c=o.height,n=h,m=c;if(h&&c&&a.ub){if(a.ub&3&&(!(a.ub&4)||h>K||c>J)){var j=k,q=K/J*c/h;if(a.ub&1)j=q>1;else if(a.ub&2)j=q<1;n=j?h*J/c:K;m=j?J:c*K/h}b.l(l,n);b.m(l,m);b.A(l,(J-m)/2);b.E(l,(K-n)/2)}b.F(l,"absolute");f.k(i.Cd,g)}}b.L(r);p&&p(e)}function Y(b,c,d,f){if(f==R&&s==g&&N)if(!Cc){var a=t(b);A.rg(a,g,c,e,d);c.wd();U.Bb(a-U.dc()-1);U.u(a);z.Ob(b,b,0)}}function bb(b){if(b==R&&s==g){if(!h){var a=j;if(A)if(A.db==g)a=A.ng();else A.zb();Z();h=new vc(o,g,a,q);h.fd(p)}!h.od()&&h.gc()}}function G(d,f,l){if(d==g){if(d!=f)C[f]&&C[f].dd();else!l&&h&&h.de();p&&p.qd();var m=R=b.V();e.nb(b.G(j,bb,m))}else{var k=c.min(g,d),i=c.max(g,d),o=c.min(i-k,k+r-i),n=u+a.ae-1;(!S||o<=n)&&e.nb()}}function db(){if(s==g&&h){h.cb();p&&p.Xd();p&&p.Rd();h.ed()}}function eb(){s==g&&h&&h.cb()}function ab(a){!P&&f.k(i.Qd,g,a)}function Q(){p=w.pInstance;h&&h.fd(p)}e.nb=function(c,a){a=a||v;if(y.length&&!H){b.S(a);if(!W){W=d;f.k(i.Pd,g);b.c(y,function(a){if(!b.p(a,"src")){a.src=b.g(a,"src2");b.Q(a,a["display-origin"])}})}b.Id(y,l,b.G(j,O,c,a))}else O(c,a)};e.Ld=function(){var i=g;if(a.rd<0)i-=r;var d=i+a.rd*tc;if(D&2)d=t(d);if(!(D&1)&&!ib)d=c.max(0,c.min(d,r-u));if(d!=g){if(A){var f=A.kg(r);if(f){var k=R=b.V(),h=C[t(d)];return h.nb(b.G(j,Y,d,h,f,k),v)}}cb(d)}else if(a.wb){e.dd();G(g,g)}};e.Tb=function(){G(g,g,d)};e.dd=function(){p&&p.Xd();p&&p.Rd();e.ad();h&&h.Zd();h=j;E()};e.wd=function(){b.L(o)};e.ad=function(){b.S(o)};e.ce=function(){p&&p.qd()};function T(a,c,e){if(b.p(a,"jssor-slider"))return;if(!F){if(a.tagName=="IMG"){y.push(a);if(!b.p(a,"src")){S=d;a["display-origin"]=b.Q(a);b.L(a)}}b.xc()&&b.s(a,(b.s(a)||0)+1)}var f=b.yb(a);b.c(f,function(f){var h=f.tagName,i=b.g(f,"u");if(i=="player"&&!w){w=f;if(w.pInstance)Q();else b.a(w,"dataavailable",Q)}if(i=="caption"){if(c){b.Jc(f,b.g(f,"to"));b.fe(f,b.g(f,"bf"));b.g(f,"3d")&&b.Af(f,"preserve-3d")}else if(!b.Nc()){var g=b.lb(f,k,d);b.Eb(g,f,a);b.Fb(f,a);f=g;c=d}}else if(!F&&!e&&!l){if(h=="A"){if(b.g(f,"u")=="image")l=b.Lf(f,"IMG");else l=b.B(f,"image",d);if(l){x=f;b.Q(x,"block");b.T(x,V);B=b.lb(x,d);b.F(x,"relative");b.pc(B,0);b.W(B,"backgroundColor","#000")}}else if(h=="IMG"&&b.g(f,"u")=="image")l=f;if(l){l.border=0;b.T(l,V)}}T(f,c,e+1)})}e.ec=function(c,b){var a=u-b;Zb(M,a)};e.db=g;n.call(e);b.Bf(o,b.g(o,"p"));b.Cf(o,b.g(o,"po"));var L=b.B(o,"thumb",d);if(L){b.lb(L);b.L(L)}b.S(o);v=b.lb(gb);b.s(v,1e3);b.a(o,"click",ab);E(d);e.mg=l;e.Kc=B;e.mc=M=o;b.U(M,v);f.xb(203,G);f.xb(28,eb);f.xb(24,db)}function vc(y,g,p,q){var a=this,n=0,u=0,h,j,e,c,l,t,r,o=C[g];m.call(a,0,0);function v(){b.fc(L);cc&&l&&o.Kc&&b.U(L,o.Kc);b.S(L,!l&&o.mg)}function w(){a.gc()}function x(b){r=b;a.cb();a.gc()}a.gc=function(){var b=a.rb();if(!B&&!M&&!r&&s==g){if(!b){if(h&&!l){l=d;a.ed(d);f.k(i.Ad,g,n,u,h,c)}v()}var k,p=i.yc;if(b!=c)if(b==e)k=c;else if(b==j)k=e;else if(!b)k=j;else k=a.hd();f.k(p,g,b,n,j,e,c);var m=N&&(!E||F);if(b==c)(e!=c&&!(E&12)||m)&&o.Ld();else(m||b!=e)&&a.Rc(k,w)}};a.de=function(){e==c&&e==a.rb()&&a.u(j)};a.Zd=function(){A&&A.db==g&&A.zb();var b=a.rb();b<c&&f.k(i.yc,g,-b-1,n,j,e,c)};a.ed=function(a){p&&b.Db(lb,a&&p.Vb.wg?"":"hidden")};a.ec=function(b,a){if(l&&a>=h){l=k;v();o.ad();A.zb();f.k(i.ge,g,n,u,h,c)}f.k(i.Of,g,a,n,j,e,c)};a.fd=function(a){if(a&&!t){t=a;a.xb($JssorPlayer$.rf,x)}};p&&a.bc(p);h=a.Gb();a.bc(q);j=h+q.uc;e=h+q.vc;c=a.Gb()}function Kb(a,c,d){b.E(a,c);b.A(a,d)}function Zb(c,b){var a=x>0?x:fb,d=zb*b*(a&1),e=Ab*b*(a>>1&1);Kb(c,d,e)}function Pb(){qb=M;Ib=z.hd();G=w.R()}function gc(){Pb();if(B||!F&&E&12){z.cb();f.k(i.Nf)}}function ec(f){if(!B&&(F||!(E&12))&&!z.od()){var d=w.R(),b=c.ceil(G);if(f&&c.abs(H)>=a.zc){b=c.ceil(d);b+=jb}if(!(D&1))b=c.min(r-u,c.max(b,0));var e=c.abs(b-d);e=1-c.pow(1-e,5);if(!P&&qb)z.Bd(Ib);else if(d==b){tb.ce();tb.Tb()}else z.Ob(d,b,e*Vb)}}function Hb(a){!b.g(b.hc(a),"nodrag")&&b.Nb(a)}function rc(a){Yb(a,1)}function Yb(a,c){a=b.Lc(a);var l=b.hc(a);if(!O&&!b.g(l,"nodrag")&&sc()&&(!c||a.touches.length==1)){B=d;yb=k;R=j;b.a(h,c?"touchmove":"mousemove",Bb);b.V();P=0;gc();if(!qb)x=0;if(c){var g=a.touches[0];ub=g.clientX;vb=g.clientY}else{var e=b.Gc(a);ub=e.x;vb=e.y}H=0;hb=0;jb=0;f.k(i.Kf,t(G),G,a)}}function Bb(e){if(B){e=b.Lc(e);var f;if(e.type!="mousemove"){var l=e.touches[0];f={x:l.clientX,y:l.clientY}}else f=b.Gc(e);if(f){var j=f.x-ub,k=f.y-vb;if(c.floor(G)!=G)x=x||fb&O;if((j||k)&&!x){if(O==3)if(c.abs(k)>c.abs(j))x=2;else x=1;else x=O;if(ob&&x==1&&c.abs(k)-c.abs(j)>3)yb=d}if(x){var a=k,i=Ab;if(x==1){a=j;i=zb}if(!(D&1)){if(a>0){var g=i*s,h=a-g;if(h>0)a=g+c.sqrt(h)*5}if(a<0){var g=i*(r-u-s),h=-a-g;if(h>0)a=-g-c.sqrt(h)*5}}if(H-hb<-2)jb=0;else if(H-hb>2)jb=-1;hb=H;H=a;sb=G-H/i/(Y||1);if(H&&x&&!yb){b.Nb(e);if(!M)z.zf(sb);else z.sg(sb)}}}}}function bb(){qc();if(B){B=k;b.V();b.H(h,"mousemove",Bb);b.H(h,"touchmove",Bb);P=H;z.cb();var a=w.R();f.k(i.Jf,t(a),a,t(G),G);E&12&&Pb();ec(d)}}function jc(c){if(P){b.Gf(c);var a=b.hc(c);while(a&&v!==a){a.tagName=="A"&&b.Nb(c);try{a=a.parentNode}catch(d){break}}}}function Jb(a){C[s];s=t(a);tb=C[s];Tb(a);return s}function Dc(a,b){x=0;Jb(a);f.k(i.If,t(a),b)}function Tb(a,c){wb=a;b.c(S,function(b){b.Xb(t(a),a,c)})}function sc(){var b=i.Dc||0,a=X;if(ob)a&1&&(a&=1);i.Dc|=a;return O=a&~b}function qc(){if(O){i.Dc&=~X;O=0}}function Xb(){var a=b.Ab();b.T(a,V);b.F(a,"absolute");return a}function t(a){return(a%r+r)%r}function kc(b,d){if(d)if(!D){b=c.min(c.max(b+wb,0),r-u);d=k}else if(D&2){b=t(b+wb);d=k}cb(b,a.Cb,d)}function xb(){b.c(S,function(a){a.cc(a.Jb.xg<=F)})}function hc(){if(!F){F=1;xb();if(!B){E&12&&ec();E&3&&C[s].Tb()}}}function Ec(){if(F){F=0;xb();B||!(E&12)||gc()}}function ic(){V={jb:K,ib:J,i:0,j:0};b.c(T,function(a){b.T(a,V);b.F(a,"absolute");b.Db(a,"hidden");b.L(a)});b.T(gb,V)}function ab(b,a){cb(b,a,d)}function cb(g,f,j){if(Rb&&(!B&&(F||!(E&12))||a.Ac)){M=d;B=k;z.cb();if(f==l)f=Vb;var e=Cb.rb(),b=g;if(j){b=e+g;if(g>0)b=c.ceil(b);else b=c.floor(b)}if(D&2)b=t(b);if(!(D&1))b=c.max(0,c.min(b,r-u));var i=(b-e)%r;b=e+i;var h=e==b?0:f*c.abs(i);h=c.min(h,f*u*1.5);z.Ob(e,b,h||1)}}f.Uc=function(){if(!N){N=d;C[s]&&C[s].Tb()}};function W(){return b.l(y||p)}function nb(){return b.m(y||p)}f.N=W;f.Z=nb;function Eb(c,d){if(c==l)return b.l(p);if(!y){var a=b.Ab(h);b.tc(a,b.tc(p));b.Mb(a,b.Mb(p));b.Q(a,"block");b.F(a,"relative");b.A(a,0);b.E(a,0);b.Db(a,"visible");y=b.Ab(h);b.F(y,"absolute");b.A(y,0);b.E(y,0);b.l(y,b.l(p));b.m(y,b.m(p));b.Jc(y,"0 0");b.U(y,a);var g=b.yb(p);b.U(p,y);b.W(p,"backgroundImage","");b.c(g,function(c){b.U(b.g(c,"noscale")?p:a,c);b.g(c,"autocenter")&&Lb.push(c)})}Y=c/(d?b.m:b.l)(y);b.Df(y,Y);var f=d?Y*W():c,e=d?c:Y*nb();b.l(p,f);b.m(p,e);b.c(Lb,function(a){var c=b.Wb(b.g(a,"autocenter"));b.Hd(a,c)})}f.lg=Eb;n.call(f);f.X=p=b.ob(p);var a=b.J({ub:0,ae:1,Qb:1,Sb:0,Ub:k,wb:1,tb:d,Ac:d,rd:1,id:3e3,jd:1,Cb:500,Hc:e.Oc,zc:20,kd:0,qb:1,gd:0,og:1,Rb:1,md:1},fc);a.tb=a.tb&&b.tf();if(a.pg!=l)a.id=a.pg;if(a.qg!=l)a.gd=a.qg;var fb=a.Rb&3,tc=(a.Rb&4)/-4||1,mb=a.yg,I=b.J({I:q,tb:a.tb},a.ig);I.mb=I.mb||I.tg;var Fb=a.gg,Z=a.fg,eb=a.ug,Q=!a.og,y,v=b.B(p,"slides",Q),gb=b.B(p,"loading",Q)||b.Ab(h),Nb=b.B(p,"navigator",Q),dc=b.B(p,"arrowleft",Q),ac=b.B(p,"arrowright",Q),Mb=b.B(p,"thumbnavigator",Q),pc=b.l(v),nc=b.m(v),V,T=[],uc=b.yb(v);b.c(uc,function(a){if(a.tagName=="DIV"&&!b.g(a,"u"))T.push(a);else b.xc()&&b.s(a,(b.s(a)||0)+1)});var s=-1,wb,tb,r=T.length,K=a.hg||pc,J=a.dg||nc,Wb=a.kd,zb=K+Wb,Ab=J+Wb,bc=fb&1?zb:Ab,u=c.min(a.qb,r),lb,x,O,yb,S=[],Qb,Sb,Ob,cc,Cc,N,E=a.jd,lc=a.id,Vb=a.Cb,rb,ib,kb,Rb=u<r,D=Rb?a.wb:0,X,P,F=1,M,B,R,ub=0,vb=0,H,hb,jb,Cb,w,U,z,Ub=new oc,Y,Lb=[];if(r){if(a.tb)Kb=function(a,c,d){b.Pb(a,{bb:c,fb:d})};N=a.Ub;f.Jb=fc;ic();b.p(p,"jssor-slider",d);b.s(v,b.s(v)||0);b.F(v,"absolute");lb=b.lb(v,d);b.Eb(lb,v);if(mb){cc=mb.vg;rb=mb.I;ib=u==1&&r>1&&rb&&(!b.Nc()||b.Cc()>=8)}kb=ib||u>=r||!(D&1)?0:a.gd;X=(u>1||kb?fb:-1)&a.md;var Gb=v,C=[],A,L,Db=b.Rf(),ob=Db.eg,G,qb,Ib,sb;Db.sd&&b.W(Gb,Db.sd,([j,"pan-y","pan-x","none"])[X]||"");U=new zc;if(ib)A=new rb(Ub,K,J,mb,ob);b.U(lb,U.mc);b.Db(v,"hidden");L=Xb();b.W(L,"backgroundColor","#000");b.pc(L,0);b.Eb(L,Gb.firstChild,Gb);for(var db=0;db<T.length;db++){var wc=T[db],yc=new xc(wc,db);C.push(yc)}b.L(gb);Cb=new Ac;z=new mc(Cb,U);b.a(v,"click",jc,d);b.a(p,"mouseout",b.kc(hc,p));b.a(p,"mouseover",b.kc(Ec,p));if(X){b.a(v,"mousedown",Yb);b.a(v,"touchstart",rc);b.a(v,"dragstart",Hb);b.a(v,"selectstart",Hb);b.a(h,"mouseup",bb);b.a(h,"touchend",bb);b.a(h,"touchcancel",bb);b.a(g,"blur",bb)}E&=ob?10:5;if(Nb&&Fb){Qb=new Fb.I(Nb,Fb,W(),nb());S.push(Qb)}if(Z&&dc&&ac){Z.wb=D;Z.qb=u;Sb=new Z.I(dc,ac,Z,W(),nb());S.push(Sb)}if(Mb&&eb){eb.Sb=a.Sb;Ob=new eb.I(Mb,eb);S.push(Ob)}b.c(S,function(a){a.qc(r,C,gb);a.xb(o.sc,kc)});b.W(p,"visibility","visible");Eb(W());xb();a.Qb&&b.a(h,"keydown",function(b){if(b.keyCode==37)ab(-a.Qb);else b.keyCode==39&&ab(a.Qb)});var pb=a.Sb;if(!(D&1))pb=c.max(0,c.min(pb,r-u));z.Ob(pb,pb,0)}};i.Qd=21;i.Kf=22;i.Jf=23;i.sf=24;i.yf=25;i.Pd=26;i.Cd=27;i.Nf=28;i.Sf=202;i.If=203;i.Ad=206;i.ge=207;i.Of=208;i.yc=209;var o={sc:1},r=function(e,C){var f=this;n.call(f);e=b.ob(e);var s,A,z,r,l=0,a,m,i,w,x,h,g,q,p,B=[],y=[];function v(a){a!=-1&&y[a].Kd(a==l)}function t(a){f.k(o.sc,a*m)}f.X=e;f.Xb=function(a){if(a!=r){var d=l,b=c.floor(a/m);l=b;r=a;v(d);v(b)}};f.cc=function(a){b.S(e,a)};var u;f.qc=function(D){if(!u){s=c.ceil(D/m);l=0;var o=q+w,r=p+x,n=c.ceil(s/i)-1;A=q+o*(!h?n:i-1);z=p+r*(h?n:i-1);b.l(e,A);b.m(e,z);for(var f=0;f<s;f++){var C=b.Ge();b.Hf(C,f+1);var k=b.Jd(g,"numbertemplate",C,d);b.F(k,"absolute");var v=f%(n+1);b.E(k,!h?o*v:f%i*o);b.A(k,h?r*v:c.floor(f/(n+1))*r);b.U(e,k);B[f]=k;a.ac&1&&b.a(k,"click",b.G(j,t,f));a.ac&2&&b.a(k,"mouseover",b.kc(b.G(j,t,f),k));y[f]=b.nc(k)}u=d}};f.Jb=a=b.J({td:10,vd:10,pd:1,ac:1},C);g=b.B(e,"prototype");q=b.l(g);p=b.m(g);b.Fb(g,e);m=a.nd||1;i=a.jg||1;w=a.td;x=a.vd;h=a.pd-1;a.oc==k&&b.p(e,"noscale",d);a.sb&&b.p(e,"autocenter",a.sb)},s=function(a,g,h){var c=this;n.call(c);var r,q,e,f,i;b.l(a);b.m(a);function l(a){c.k(o.sc,a,d)}function p(c){b.S(a,c||!h.wb&&e==0);b.S(g,c||!h.wb&&e>=q-h.qb);r=c}c.Xb=function(b,a,c){if(c)e=a;else{e=b;p(r)}};c.cc=p;var m;c.qc=function(c){q=c;e=0;if(!m){b.a(a,"click",b.G(j,l,-i));b.a(g,"click",b.G(j,l,i));b.nc(a);b.nc(g);m=d}};c.Jb=f=b.J({nd:1},h);i=f.nd;if(f.oc==k){b.p(a,"noscale",d);b.p(g,"noscale",d)}if(f.sb){b.p(a,"autocenter",f.sb);b.p(g,"autocenter",f.sb)}};function q(e,d,c){var a=this;m.call(a,0,c);a.Pc=b.Mc;a.uc=0;a.vc=c}var t=function(n,g,l){var a=this,o,h={},i=g.mb,c=new m(0,0);m.call(a,0,0);function j(d,c){var a={};b.c(d,function(d,f){var e=h[f];if(e){if(b.Pf(d))d=j(d,c||f=="e");else if(c)if(b.Zb(d))d=o[d];a[e]=d}});return a}function k(e,c){var a=[],d=b.yb(e);b.c(d,function(d){var h=b.g(d,"u")=="caption";if(h){var e=b.g(d,"t"),g=i[b.Wb(e)]||i[e],f={X:d,Vb:g};a.push(f)}if(c<5)a=a.concat(k(d,c+1))});return a}function r(e,f,a){b.c(f,function(h){var f=b.J(d,{},j(h)),g=b.bd(f.O);delete f.O;if(f.j){f.v=f.j;g.v=g.j;delete f.j}if(f.i){f.q=f.i;g.q=g.i;delete f.i}var k={O:g,N:a.jb,Z:a.ib},i=new m(h.b,h.d,k,e,a,f);c.vb(i);a=b.be(a,f)});return a}function q(a){b.c(a,function(d){var a=d.X,f=b.l(a),e=b.m(a),c={j:b.E(a),i:b.A(a),v:0,q:0,kb:1,gb:b.s(a)||0,ab:0,K:0,M:0,z:1,n:1,bb:0,fb:0,P:0,Kb:0,Lb:0,jb:f,ib:e,f:{i:0,C:f,D:e,j:0}};c.Sc=c.j;c.Tc=c.i;r(a,d.Vb,c)})}function t(g,f,h){var e=g.b-f;if(e){var b=new m(f,e);b.vb(c,d);b.Bb(h);a.vb(b)}a.Ff(g.d);return e}function s(f){var d=c.dc(),e=0;b.c(f,function(c,f){c=b.J({d:l},c);t(c,d,e);d=c.b;e+=c.d;if(!f||c.t==2){a.uc=d;a.vc=d+c.d}})}a.Pc=function(){a.u(-1,d)};o=[f.ke,f.le,f.me,f.ne,f.oe,f.pe,f.qe,f.re,f.se,f.ue,f.He,f.ve,f.Qc,f.we,f.xe,f.ye,f.ze,f.Ae,f.Be,f.Ce,f.De,f.Ee,f.Fe,f.nf,f.Ie,f.mf,f.pf,f.of,f.Uf,f.Vf,f.Wf,f.Xf,f.Yf,f.Zf,f.ag,f.bg,f.cg];var u={i:"y",j:"x",D:"m",C:"t",ab:"r",K:"rX",M:"rY",z:"sX",n:"sY",bb:"tX",fb:"tY",P:"tZ",Kb:"kX",Lb:"kY",kb:"o",O:"e",gb:"i",f:"c"};b.c(u,function(b,a){h[b]=a});q(k(n,1));c.u(-1);var p=g.Bg||[],e=[].concat(p[b.Wb(b.g(n,"b"))]||[]);e.push({b:c.Gb(),d:e.length?0:l});s(e);a.u(-1)};jssor_1_slider_init=function(){var h=[[{b:-1,d:1,o:-1},{b:0,d:1e3,o:1}],[{b:1900,d:2e3,x:-379,e:{x:7}}],[{b:1900,d:2e3,x:-379,e:{x:7}}],[{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:1e3,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:1900,d:1600,x:-200,o:-1,e:{x:16}}]],j={Ub:d,Cb:800,Hc:f.Qc,ig:{I:t,mb:h},fg:{I:s},gg:{I:r}},e=new i("jssor_1",j);function a(){var b=e.X.parentNode.clientWidth;if(b){b=c.min(b,1920);e.lg(b)}else g.setTimeout(a,30)}a();b.a(g,"load",a);b.a(g,"resize",a);b.a(g,"orientationchange",a)}})(window,document,Math,null,true,false)
+</script>
+<style>.jssorb05{position:absolute}.jssorb05 div,.jssorb05 div:hover,.jssorb05 .av{position:absolute;width:16px;height:16px;background:url('img/b05.png') no-repeat;overflow:hidden;cursor:pointer}.jssorb05 div{background-position:-7px -7px}.jssorb05 div:hover,.jssorb05 .av:hover{background-position:-37px -7px}.jssorb05 .av{background-position:-67px -7px}.jssorb05 .dn,.jssorb05 .dn:hover{background-position:-97px -7px}.jssora22l,.jssora22r{display:block;position:absolute;width:40px;height:58px;cursor:pointer;background:url('img/a22.png') center center no-repeat;overflow:hidden}.jssora22l{background-position:-10px -31px}.jssora22r{background-position:-70px -31px}.jssora22l:hover{background-position:-130px -31px}.jssora22r:hover{background-position:-190px -31px}.jssora22l.jssora22ldn{background-position:-250px -31px}.jssora22r.jssora22rdn{background-position:-310px -31px}</style>
+
+<div class="jessor" id="jssor_1" style="position: relative; margin: 0 auto; top: 200px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+<!-- Loading Screen -->
+<div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+<div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+<div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+</div>
+<div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+<div data-p="225.00" style="display: none;">
+<img data-u="image" src="img/red.jpg"  alt="lodha amara codename Megastar banner"/>
+<!--<div style="position: absolute; top: 30px; left: 100px; width: 480px; height: 120px; font-size: 50px; color: #ffffff; line-height: 60px;">TOUCH SWIPE SLIDER</div>-->
+<div style="position: absolute; top: 300px; left: 450px; width: 520px; height: 120px; font-size: 30px; color:#F90; line-height: 38px;"></div>
+<div data-u="caption" data-t="0" style="position: absolute; top: 120px; left: 100px; width: 470px; height: 220px;">
+<img style="position: absolute; top: 0px; left: 0px; width: 470px; height: 220px;" src="img/c-phone-horizontal.png" alt="lodha amara codename Megastar nanner" />
+<div style="position: absolute; top: 4px; left: 45px; width: 379px; height: 213px; overflow: hidden;">
+<img data-u="caption" data-t="1" style="position: absolute; top: 0px; left: 0px; width: 379px; height: 213px;" src="img/c-slide-1.jpg" alt="lodha amara codename Megastar banner" />
+<img data-u="caption" data-t="2" style="position: absolute; top: 0px; left: 379px; width: 379px; height: 213px;" src="img/c-slide-3.gif" alt="lodha amara codename Megastar banner" />
+</div>
+<img style="position: absolute; top: 4px; left: 45px; width: 379px; height: 213px;" src="img/c-navigator-horizontal.png" alt="lodha amara codename Megastar banner" />
+<img data-u="caption" data-t="3" style="position: absolute; top: 740px; left: 1600px; width: 257px; height: 300px;" src="img/c-finger-pointing.png" alt="lodha amara codename Megastar banner"/>
+</div>
+</div>
+<a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+<div data-p="225.00" style="display: none;">
+<img data-u="image" src="img/purple.jpg" alt="lodha amara codename Megastar banner" />
+</div>
+<div data-p="225.00" data-po="80% 55%" style="display: none;">
+<img data-u="image" src="img/blue.jpg" alt="lodha amara codename Megastar banner"/>
+</div>
+</div>
+<!-- Bullet Navigator -->
+<div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+<!-- bullet navigator item prototype -->
+<div data-u="prototype" style="width:16px;height:16px;"></div>
+</div>
+<!-- Arrow Navigator -->
+<span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+<span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
+</div>
+<script type="text/javascript">jssor_1_slider_init();</script>
+<section class="page-content parallax parallax-4">
+ <div class="container"> 
+  <section id="home" style="padding-top:200px">
+  <div class="row">
+  <article class="col-md-12 grid_12">
+        <div class="triggerAnimation animated" data-animate='fadeInDown'>
+        <a href="#"> <h2 class="position_home">Welcome to Lodha Amara At Thane </h2></a></div></article></div>
+        <div class="row">
+   <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1"> </article>
+       <article class="col-md-10 col-lg-10 col-sm-10 col-xs-10 grid_9">
+ <p align="justify">Never before have home buyers been offered so much,for so little,Amara presents a rare opportunity to buy a luxury home in Thane-Mumbai's prime suburb-at an increadible price.
+ Located minutes from the Eastern Express Highway and Pokhran Road,this neighbourhood provides easy access to some of the city's best malls,school and hospitals.
+ Experience the buzz of the city one minute,and the healing embrace of the nature the next.<br> This grand estate,spread over 40 acres(85% of which comprise open spaces),offers a lifestyle
+ rarely experienced in citis,and the purest air in Mumbai.Here you can live in Air-Conditioned homes,designed with world-class finishes by India's finest architect,
+ Hafeez Contractor.Amara is just a 15-minute drive from IT and corporate park that offer over 1 lac jobs,including the new TCS campus.Which means,you'll enjoy great rental returns and capital appreciation.This is an opportunity you don't want to miss.</p>
+</article><article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_2"></article></div>
+ <div class="row">
+     <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1"></article>
+       <article class="col-md-5 col-lg-5 col-sm-5 col-xs-5 grid_5">
+        <div class="triggerAnimation animated" data-animate='fadeInDown'>
+<img src="images/home.png" alt="welcome to lodha amara codename Megastar" class="img-responsive img-thumbnail img-rounded">		
+  
+              </div>
+      </article>
+      <article class="col-md-5 col-lg-5 col-sm-4 col-xs-5 grid_4 thumbnail">
+        <div class="triggerAnimation animated" data-animate='fadeInDown'>
+<h4><strong>5 REASONS TO BUY NOW</strong></h4>
+<br>
+		<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar reason">Buying early into master-planned neighbourhoods promises unprecedented and market-beating returns making this launch a rare and unmissable investment opportunity.</p>
+<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar reason">With construction now progressing quickly and the show flat,designed by HBA(Hirish Bender Associates),UK,to be opened soon,the best time to book now,before the opportunity becomes privy to the larger audience.</p>
+		<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar reason">The choicest inventory of smartly designed 1 and 2 beds unit at an unbeatable price.</p>
+		<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar reason">Don't miss this unbelievable chance to own a Lodha home at just 5%</p>
+		<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar reason">Best chance to invest on Prime Central Thane,the No.1 investment destination-CII-JLL<p>
+		
+   </div>
+      </article>
+      <article class="col-md-1 col-lg-1 col-sm-2 col-xs-1 grid_2"></article>
+    </div>
+    
+</div>
+  </section>
+</div>  
+
+</section>
+
+
+
+
+<section class='page-content'>
+ <div class="container">
+     <div id="amenities">
+     <div class="row">
+<article class="col-md-12 grid_12">
+        <div class="triggerAnimation animated" data-animate='fadeInDown'>
+        <a href="#"> <h2 class="position_amenities1">Amenities</h2></a></div></article></div>
+      </article></div>
+       <div class="row">
+ <article class="col-md-12 col-lg-12 col-sm-12 col-xs-12 grid_12">
+       <section class="heading-centered triggerAnimation animated" data-animate="bounceIn">
+      
+      </section>
+      </article></div>
+      
+          <div class="row">
+            <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1"></article>
+           <article class="col-md-5 col-lg-5 col-sm-5 col-xs-5 grid_5">
+          <img src="img/amenities.jpg" alt="lodha amara codename Megastar amenities" class="img-responsive img-thumbnail img-rounded">
+         </article>
+           <article class="col-md-5 col-lg-5 col-sm-4 col-xs-5 grid_4 thumbnail" style="background-color:rgb(103, 192, 172)">
+		   
+		   <h3 class="thumbnail">Paradise Awaits You</h3>
+	<ul>
+	<li  class="desc">Cricket field</li>
+<li  class="desc">Multiple swimming pools for active swimmers, family and kids 1000s of trees making it one of the most pristine environments in MMR with best air quality</li>
+<li  class="desc">Car free landscape with emergency drop – off & fire fighting permitted.</li>
+<li  class="desc">Best – in – class 4- tier security system.</li>
+<li  class="desc">Ample covered parking.</li>
+<li  class="desc">Almost 25 acres of high quality open space for sports & recreation.</li>
+<li  class="desc">Play village – large outdoor kids playground with international standard equipment and slides.</li>
+
+</ul><br></article>
+   <article class="col-md-1 col-lg-1 col-sm-2 col-xs-1 grid_2"></article>
+        </div>
+        <div class="row">
+          <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1"></article>
+         <article class="col-md-10 col-lg-10 col-sm-9 col-xs-10 grid_9 thumbnail "style="background-color:rgba(211, 163, 53, 0.28)">
+<center>  <h3 class="thumbnail">OUTDOOR RECREATIONAL ACTIVITIES</h3></center><br>
+  </article>
+         <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1"></article>
+ </div>
+          <div class="row">
+          
+        <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1"></article>
+        
+		
+		
+		
+		
+		
+            <div class='col-sm-3 col-xs-3 col-md-3 col-lg-3 grid_3 thumbnail' style="background-color:rgba(211, 163, 53, 0.28)">
+			  <ul class="thumbnail">
+			  <li class="desc">Jogging Track / Walkways</li>
+  <li class="desc"> Multipurpose Court - Tennis Court</li>
+  <li class="desc">Basket Ball</li>
+  <li class="desc"> Kids Play Area</li>
+  <li class="desc"> Yoga & Meditation Area</li>
+  <li class="desc"> Entertainment Lounge / Deck</li>
+  <li class="desc"> Amphitheatre</li>
+
+</ul>
+             </div>
+               <div class='col-sm-3 col-xs-3 col-md-3 col-lg-3 grid_3 thumbnail' style="background-color:rgba(211, 163, 53, 0.28)" >
+			  <ul class="thumbnail">
+               <li class="desc">Senior Citizen's Area</li>
+  <li class="desc"> Parents Sit Out Area</li>
+  <li class="desc"> Cricket Practice Pitch</li>
+  <li class="desc"> Chess Garden</li>
+  <li class="desc"> BBQ Area</li>
+  <li class="desc"> Herb Garden</li>
+  <li class="desc">Outdoor Gym And Fitness Centre</li> </ul>
+           </div> 
+            <div class='col-sm-3 col-xs-3 col-md-3 col-lg-3 grid_3 thumbnail' style="background-color:rgba(211, 163, 53, 0.28)">
+			<ul class="thumbnail">
+             <li class="desc"> Sky Lounge, Terrace Garden</li>
+
+  <li class="desc">Lake With Fountain</li>
+  <li class="desc"> Lake Pavilion</li>
+  <li class="desc">Lake Board Walk</li>
+  <li class="desc">Forest Pavilion Garden</li>
+  <li class="desc">Kids Adventure Play Area</li>
+  <li class="desc">Seating Area</li> </ul>
+           
+            </div> 
+           
+         <article class="col-md-2 col-lg-2 col-sm-2 col-xs-2 grid_2"></article>
+ </div>
+ </div>
+   </div>  
+</section>
+
+<section class="page-content">
+   <div id="floor-plan">
+    <div class="container"> 
+  <div class="row">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox-1.3.4.css" />
+<div class="container"><div class="row"><article class="col-md-12 col-lg-12 col-sm-12 col-xs-12 grid_12">
+<section class="heading-centered triggerAnimation animated" data-animate="bounceIn">
+<a href="#"><h2 class="position_text_fp">Floor Plans</h2></a><br><br></section></article></div>
+<div class="row"><article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_2"></article>
+<article class="col-md-4 col-lg-4 col-sm-4 col-xs-4 grid_2">
+<ul>
+<li class="grid_2"><figure><div><img class="fancybox" src="images/1BHK_jodi_plan.jpg" alt="lodha amara codename Megastar 1BHK jodi plan" />
+<figcaption>1BHK Jodi Plan</figcaption></div></figure></li></ul></article>
+<article class="col-md-4 col-lg-4 col-sm-4 col-xs-4 grid_2">
+<ul><li class="grid_2"><figure><div><img class="fancybox" src="images/2BHK_ultima_layout.jpg" alt="lodha amara codename Megastar 2BHK Ultima layout"/>
+<figcaption>2BHK Optima Layout (3BHK Ultima)</figcaption></div></figure></li></ul></article>
+<article class="col-md-4 col-lg-4 col-sm-4 col-xs-4 grid_3">
+<ul><li class="grid_2"><figure><div><img class="fancybox" src="images/3BHK_L_jodi.jpg" alt="lodha amara codename Megastar 3BHK L Jodi"/>
+<figcaption>3BHK L Jodi</figcaption></div></figure></li></ul>
+</article>
+<!--<article class="col-md-3 col-lg-3 col-sm-3 col-xs-3 grid_2">
+<ul><li class="grid_2"><figure><div><img class="fancybox" src="images/floor_plan_3BHK.jpg" alt="floor_plan_3BHK"/>
+<figcaption>3BHK floor Plan</figcaption></div></figure></li>
+</ul>
+
+</article>--><article class="col-md-1 col-lg-2 col-sm-2 col-xs-2 grid_2"></article></div></div>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script src="js/zoom_script.js"></script>
+ </div>
+
+<section class="page-content parallax parallax-4">
+  <div class="container">
+     <div id="price">
+     <div class="row">
+     <article class="col-md-12 col-lg-12 col-sm-12 col-xs-12 grid_12">
+       <section class="heading-centered triggerAnimation animated" data-animate="bounceIn">
+       <a href="#"><h2 class="position_price_text">Price</h2></a>
+      </section>
+      </article></div>
+ <div class="row">
+          <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1">&nbsp;</article>
+        <article class="col-md-10 col-lg-10 col-sm-9 col-xs-10 grid_9">
+  <div class="triggerAnimation animated" data-animate='fadeInDown'>           
+            <table class="table table-bordered">
+<tr class="success"><td><b>Type</b></td><td><b>Area (in Sq.Ft.)</b></td><td><b>Starting Price (in Cr.)</b></td></tr>
+<tr><td>2BHK</td><td>1300 Sq.Ft(Carpet Area) </td> <td><h5 class="button_price" data-toggle="modal" data-target="#myModal">On Demand*</h5></td></tr>
+<tr><td>3BHK</td><td>1900 Sq.Ft(Carpet Area) </td> <td><h5 class="button_price" data-toggle="modal" data-target="#myModal">On Demand*</h5></td> </tr>
+</table> 
+                    <br />
+            <section class="heading-centered triggerAnimation animated bounceIn" data-animate="bounceIn">
+           <p class="center-block"> For more Details: <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">For Price</button></p>
+  </section>
+                        
+          </div>
+          
+        </article>
+        <article class="col-md-1 col-lg-1 col-sm-2 col-xs-1 grid_2"></article>
+      </div>
+    </div>
+     
+</section>
+
+
+<!--NRI Corner Start-->
+<section class='page-content'>
+ <div class="container">
+     <div id="nri">
+     <div class="row">
+ <article class="col-md-12 col-lg-12 col-sm-12 col-xs-12 grid_12">
+       <section class="heading-centered triggerAnimation animated" data-animate="bounceIn">
+       <a href="#"><h2 class="position_nri">Lodha Amara-NRI Corner</h2></a>
+      </section>
+      </article></div>
+ <div class="row">
+ <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1">&nbsp;</article>
+        <article class="col-md-10 col-lg-10 col-sm-9 col-xs-10 grid_9">
+          <section class="heading-centered triggerAnimation animated" data-animate="bounceIn">
+ <p style="text-align:justify; padding-right:15px"><strong>Lodha Amara</strong> has launched a New Project.  Mumbai as a city has limitations with open land giving its residents no scope to enjoy the freedom of moving around.</p>
+                <p style="text-align:justify; padding-right:15px">Lodha Amara offers you a one-stop solution for all your real estate needs. From buying your apartment without leaving your city to placing your apartment on rent for monthly yields to eventual sell-offs to generate high capital appreciation, Lodha Amara endeavours to provide an integrated real estate solution for your investments.</p>
+               <p style="text-align:justify; padding-right:15px">A much needed platform for NRI looking to own a property in Mumbai INDIA<br><br>
+                One Point Solution for all your property needs in Mumbai INDIA.<br>
+                While we take care of your property needs in INDIA you can sit back and relax. This is the very motto in mind. We along with our team of trained staff, extend a whole range of essential services to all who are in need of them.<br><br>
+                We recognize the significant role that you as Global Indians abroad play in Nation building, and your part in shaping the global perception of the people of India. Such genuine contributions command the respect and honor of the whole nation. We know first hand what an NRI is looking for in terms of service and quality. There are times when an NRI's look for assistance for accurate information and help to make a decision and to finalize the for accurate property choice. We deem it our duty to give you "Peace of Mind" while you are in Foreign Land, by taking care of your entire task here in INDIA.<br>
+                You can breathe a sigh of relief knowing that someone responsible is handling everything just the way you would.<br>
+                We strive to take care of the special needs of NRIs and know the importance and value of their time. We ensure to get work done in least time and hassle free manner. Services provided by us do not require their presence in India. Our qualified and experienced professionals ensure to guide correctly with the accurate information and ensures to get work done the way expected. For added benefits we bring the project to you at your convenience and suitable time at your home or office.<br>
+                We have been serving to specialized Real estate requirements for NRIs who are contemplating property investments in India. Our NRI Investment database servicing professionals with expertise in NRI realty services will help you transact the best deals for your real estate needs across India.</p>
+         <h6 class="nri"><strong>Following NRI Services for those who would like to invest property in India.<sup>New</sup></strong></h6>
+          <p style="text-align:justify; padding-right:15px"><strong>A. Home/Office meeting at your convenience :</strong> With the help of our many property experts in following locations we ensure that your convenience is prioritized over all other considerations. Hence these Property Experts will come to your Office/Home as per your convenient time and explain the project to you. Register Now to talk to our Property Expert.<br>
+<strong>B. Top notch property options :</strong> Now avail a personalized touch to your need in Real Estate and choose from the best properties in India.
+<br>
+<strong>C. Personalized service :</strong> When investing money, it is always a difficult call to take if unaware of inside developments of the Industry, considering this we have Property Experts who will handhold you in the process to buy the properties. Discuss with them about your property requirements based on your budgets, need and suitable location. Talk to them<br>
+<strong>D. Safe online transactions and guidance : </strong>All the transactions are carried our securely with valid information. You are always a Final decider in the transaction.<br>
+<strong>E. Exclusive promotional offers for NRIs :</strong> Stay privileged with exclusive offers to NRIs. Register Now to know more.<br>
+
+<strong>F. Hassle free and minimum documentation : </strong>Not only project explaination but our Property Experts will ensure that booking, documentation and assistance will be hassle free. Click to register.<br>
+
+G. Update of the property market developments in India through our professionals.<br>
+
+<strong>Still have some doubts regarding in Investing in India?? Read some of the information handouts to clear your mind.</strong></p>
+
+  <h6 class="nri"><strong>Checklist for NRI buyers before buying a home in India</strong></h6>
+  <p style="text-align:justify; padding-right:15px">  <i>A curtain raiser on the entire process of home buying in India- this note can be helpful to non-resident Indians to understand how the monetary aspects of home buying work.</i><br><br>
+
+There are plenty queries and ambiguity around a purchase, executing Power of attorney (POA), home loan and tax matters related to an investment in property in India for non-resident Indians (NRI).<br><br>
+
+A few basic questions and answers here to guide a homebuyer, starting from the inception of the idea to buy, till the property gets sold and money transferred back abroad. Hope it makes a good read.</p>
+
+ <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                 Who are termed as NRI-s? </a> </div>
+                  <div id="collapseTwo" class="accordion-body collapse">
+                    <div class="accordion-inner">
+        			            <h2>Who are termed as NRI-s?</h2>
+                    <p style="text-align:justify; padding-right:15px"> A person holding an Indian passport, who is currently located anywhere else in the world and stayed there continuously for more than 180 days is considered as an NRI (Non-resident Indian).</p>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-group">
+                  <div class="accordion-heading">
+                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                 Who are PIO and OCI? Can they buy a property in India? </a> </div>
+                  <div id="collapseThree" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                     <p style="text-align:justify; padding-right:15px"> Other than an NRI-s who holds an Indian passport, any Person of Indian origin(PIO) who is currently holding a passport of a different country, but was himself an Indian citizen earlier or whose ancestors have been Indians upto the fourth generation(great grandparents), is considered a PIO.
+The current country of residence can be any except Afghanistan, Bangladesh, Bhutan, China, Iran, Nepal, Pakistan & Sri Lanka. He will have a free passage to India without a visa. Overseas citizen of India (OCI) on the other hand has a lot of misconceptions around it. People think that it is a dual-citizenship card. Please understand that there is no such thing, as India does not allow any citizen of other country to hold an Indian citizenship. An OCI has no voting rights in India and he cannot have a government job or hold any legislative position in India. Simply put, he is not an Indian citizen. </p>
+<p style="text-align:justify; padding-right:15px"> In fact, the Government of India has announced vide Gazette Notification No.26011/01/2014-F.I dated 09.01.2015, that all PIO cards issued till 09.01.2015 are deemed to be OCI card. The scheme has been withdrawn now. Henceforth, applicants may apply for OCI card only, as PIO card scheme is no longer in existence. Transfer of PIO Card to OCI card is optional. One can apply for OCI card in lieu of valid PIO card free of any charges. All NRI, PIO and OCI can buy residential or commercial properties in India.
+
+</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"> What type of property can an NRI not buy in India?  </a> </div>
+                  <div id="collapseFour" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                    	<p style="text-align:justify; padding-right:15px">They cannot buy an agricultural or farmland or plantation property. However, they can inherit them. What documents are required from them to make a property purchase in India? Does it require RBI permission? No permission from RBI is required. They should hold valid passport with PIO/OCI card (wherever applicable), address proof, PAN (permanent account number in India) and photograph to buy a residential or commercial property in India.</p>
+                   
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix"> What is adjudication of POA?  </a> </div>
+                  <div id="collapseSix" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                       <p style="text-align:justify; padding-right:15px"> The POA issued abroad will have to be sent to India and the POA-holder will have to sign and adjudicate it, within 3 months from the date of assigning the power, in India at the registrar's office. Only after this the POA will be considered 'given'.</p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">How to repatriate the funds? 
+ </a> </div>
+                  <div id="collapseSeven" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                     <p style="text-align:justify; padding-right:15px"> Repatriation of funds is the transfer of the sale proceeds of the property from India to abroad. It gets transferred from Indian rupee to a foreign currency. You can read about it here As per Indian Income Tax laws, just ownership of a property in India does not make you pay for any taxes, unless you have rental income coming from it. Upon selling the property, however, one is exposed to the short term or long term capital gains tax. </p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight"> Short Term Capital Gain (STCG) tax </a> </div>
+                  <div id="collapseEight" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                    	  <p style="text-align:justify; padding-right:15px">Short Term Capital Gain (STCG) tax is when the property is sold for a profit within 3 years of purchasing it. The profit then is taxable under the income tax slab in which the seller falls in. For example, if you bought a property worth Rs 60 lakh in 2012 and sold it in 2014 for Rs 80 lakh, then income tax on the profit of Rs 20 lakh will be levied on the tax slab you fall in India. </p>
+                      
+                    </div>
+                  </div>
+                </div>
+                 <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseNine"> Long term capital gains(LTCG) tax  </a> </div>
+                  <div id="collapseNine" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                     <p style="text-align:justify; padding-right:15px">Long term capital gains(LTCG) tax is when you sell the property after 3 years of purchasing it. You get the benefit of indexation. Also the profit so arrived at after availing indexation is taxed at 20.6%. However, if you reinvest the profit, in Section 54EC bonds issued by REC or NHAI (within 6 months of the sale) or buy another property with it within next specific number of years, then the tax gets waived off.</p>
+                    </div>
+                  </div>
+                </div>
+               <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> Is income from rental income taxable in India as well as abroad?  </a> </div>
+                  <div id="collapseOne" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                    <p style="text-align:justify; padding-right:15px">  If there is a rental income in India, then tax papers need to be filed in India mentioning the PAN and tax to be paid. Also to note, that though holding one property in India is considered as 'self-owned', a second property, even if it is not on rent, is considered 'deemed rented' and tax needs to be paid for that. You can, however, show 30% of the deemed rental as 'maintenance cost'. There is no tax to be paid abroad (say, USA) on 'deemed' income, but declaring it is important as during repatriation of funds from India, it should not cause any issue.</p></div>
+                  </div>
+                </div>
+                <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">Is home loan available in India for NRI, PIO & OCI?  </a> </div>
+                  <div id="collapseTen" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                    <p style="text-align:justify; padding-right:15px"> Home loan is easily available for all three categories in India. Some multinational banks have special schemes and easy paperwork too. They do not seek a POA for extending home loan to NRI-s. However, there are plenty country restrictions with different lenders. So, getting an advisor on your side will be an intelligent move.</p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse1"> What are the tax benefits in India on home loan?  </a> </div>
+                  <div id="collapse1" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                    <p style="text-align:justify; padding-right:15px"> According to section 24 of the Income Tax Act, the interest on a home loan is deductible from the income gained from house property to the extent of Rs 2 lakh per annum for self occupied property. For other than self occupied property, you can claim actual interest paid. Moreover, up to Rs 1.5 lakh of the principal repayment can be deducted under section 80C (subject to an overall limit of Rs 1.5 lakh of that section including other investment options which allow grant under the same section).</p>
+                    </div>
+                  </div>
+                </div>
+                 <div class="accordion-group">
+                  <div class="accordion-heading"> 
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse2"> Can a POA sell/rent an NRI-s property in India?  </a> </div>
+                  <div id="collapse2" class="accordion-body collapse">
+                    <div class="accordion-inner">
+                    <p style="text-align:justify; padding-right:15px"> There are specific POA given to the person here in India, which if authorised to do such transactions on behalf of the owner, it can be done. Proper stamp charges to be paid at the registrar's office during execution of such POA, so that after many years also it can be traced in the record during such transactions. Happy investing in properties in India !</p>
+                    </div>
+                  </div>
+                </div>
+                  <p style="font-size:9px">Source : The views expressed are personal & for informational purpose and cannot be guaranteed by the website maintaining/owning entities. Readers are requested to take further call on their own; we claim no ownership of the article.</p>
+               <h6 class="nri"><strong>NRI Guide: Repatriation of funds post realty sale in India></strong></h6>
+   <p style="text-align:justify; padding-right:15px"><i>Selling a property in India and taking money out of India is a grey area for many non resident Indians. Here is how you can do it in a compliant manner. </i><br>
+<strong>"An investment in knowledge pays the best interest. "Benjamin Franklin </strong>
+Being in control of your money is a great stress reliever. For Non-resident Indians who invest in India in properties, with expectation of getting a good return, should understand the pro-s and cons of repatriating the money back to their country without any hassles. The planning should be done from the day of deciding to make the purchase and not during the sale of the asset. Following are a few important aspects an NRI buyer should know. 
+<br><br>
+<strong>Repatriation of the Principal Amount invested while purchasing the property :</strong>
+<ul style="text-align:justify; padding-right:15px;">
+<li>&diams;&nbsp;Funds brought into India through banking channels : Funds held in any overseas account and brought in India via bank transfer to make payment for the purchase is one aspect of 'principal amount'. Another could be through funds already parked in his NRE (Non-resident external) account, which, via drawing to a cheque can be paid to the seller and will be considered in the principal amount. This principal invested can be repatriated back to his foreign country in the foreign currency without any restrictions and permission from RBI. This also does not have any upper cap on the amount. However, this is applicable for a maximum number of 2 residential properties plus an unlimited number of commercial properties in the lifetime of the NRI buyer. Restriction: From the 3rd property onwards, even this principal portion has to be deposited in an NRO(Non Resident Ordinary) account of the NRI, from which a maximum of USD 1 Million (approx Rs.6 crores) can be repatriated per financial year to the overseas bank account.</li>
+<li>&diams;&nbsp;Property is purchased entirely with funds lying in NRO account in India: the complete sale proceeds(both principal and profits) must first be deposited in an NRO account and then a maximum amount of USD 1 Mn can be repatriated out of that sum, per financial year.</li>
+<li>&diams;&nbsp;It's a combination of 1 and 2, i.e., some funds lying in NRO account and fresh foreign currency remitted from abroad or from balances existing in NRE/FCNR accounts: then the respective rules explained above apply in proportion of funds invested. It means, the principal invested out of the NRO account can be repatriated only to the extent of USD 1 Mn per annum and the principal invested from external sources or NRE/FCNR funds can be repatriated completely without any limit at one go initially(but subject to same restriction on number of residential properties as explained earlier). </li>
+<li>&diams;&nbsp;A qualified chartered accountant needs to certify the amounts initially invested in the property during purchase, which can be substantiated with the bank statement reflecting those transactions. The Short and Long term capital gains tax matter also need to be understood from your chartered accountant and then only an NRI investor can decide a crucial thing- when to sell the property and save maximum. Indian Income taxes applicable are also to be noted. Taxation in the foreign country on the amount invested in India also requires special notation. If the property is rented out in India or in some cases lying vacant, the applicable tax laws are different in India too Hope this clears some doubts about the repatriation of funds post property-sales. "It is the absence of facts that frightens people: the gap you open, into which they pour their fears, fantasies, desires." - Hilary Mantel, (Author of prize-winning book Wolf Hall)</li>
+</ul>
+</p>    
+ </div>
+      </div>
+ </section>
+        </article>
+<article class="col-md-1 col-lg-1 col-sm-2 col-xs-1 grid_2"></article>
+         </div>
+ </div>
+   </div>  
+</section>
+<section class="page-content">
+ <div class="container">
+      <div id="location">
+      <div class="row ">
+   <article class="col-md-12 col-lg-12 col-sm-12 col-xs-12 grid_12">
+          <section class="heading-centered triggerAnimation animated" data-animate="bounceIn">
+          <h2 class="position_location">Location
+</h2><br><br>
+          </section>
+        </article>
+        </div>
+ <div class="row">
+        <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1">
+
+      </article>
+       <article class="col-md-5 col-lg-5 col-sm-5 col-xs-5 grid_5 thumbnail">
+          <section class="triggerAnimation animated" data-animate="fadeInUp">
+       
+              <img src="images/location.jpg" alt="lodha amara codename Megastar location" class="img-responsive">
+			  <h4 class="thumbnail"><strong>A Once-In-A-Lifetime Launch opportunity-</strong></h4>
+    <p class="para_text">This extremely limited application window open on a first-come-first-served basis and is expected to garner a bigger and better response than the prelaunch:not applying early could lead to missing out on the opportunity.
+	The first movers into a well-planned mega-development have historically seen the best vapital appreciation with prices expected to grow with the rapid progess of development and infrastructure.
+	The benefits of being a part of a completely master-planned development at its inception are endless and an opportunity to be a part of a well-planned development at launch prices is extremely rare.</p>
+
+ <h4 class="thumbnail"><strong>How To reach</strong></h4>
+<div style="overflow:hidden;width:500px;height:200px;resize:none;max-width:100%;"><div id="gmap-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=lodha+amara,PO+Sandoz+Baugh,+Near+Air+Force+Station,+Balkum,+Kolshet+Road+Thane+Maharashtra,+Thane,+Maharashtra+400607&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-html" rel="nofollow" href="http://www.interserver-coupons.com" id="inject-map-data">http://www.interserver-coupons.com</a><style>#gmap-display img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=e5d77ad0-2e78-9922-f994-c06471addeb1&c=google-html&u=1478680161" defer="defer" async="async"></script></article>
+       <article class="col-md-5 col-lg-5 col-sm-5 col-xs-5 grid_4 thumbnail">
+ <article class="portfolio-carousel triggerAnimation animated" data-animate="fadeInUp">
+ <br>
+ <h4 class="thumbnail"><strong>Futuristic Infrastructure Leading To Unmatched Appreciation</strong></h4>
+    <p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location ">Wadala-Ghatkopar Metro line,with a station within 5 minutes from this neighbourhood to be extened to Teen Haat Naka and  Kasarwadavali near GB Road.</p>
+	<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location">Thane-Borivali tunnel,scheduled to complete by 2016,will bring down this distance to less that 10 minutes.</p>
+	<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location">MMRDA is in advanced talk with infrastructural consultants to bring the Monorail to Thane-Bhiwandi-Kalyan Corridor.</p>
+	<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location">Elevated High Capacity Mass Transit Routes(HCMTR) passing near this neighbourhood,leading to equitable distribution of road traffic through Thane</p>
+	<p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location">large proposed infrastructure developement including tourism and water project in Prime Central Thane</p>
+	
+	
+	<br>
+	<h4 class="thumbnail"><strong>The Buzzing Center Of The Mumbai Metropolitian Region</strong></h4>
+    <p class="para_text">Centrally located between East and West Thane,prime Central Thane is synonymous
+	with everything that is good in Thane be it great malls,large multiplexes,multi-speciality hospitals,
+	educational institutes and branded residencial developments.</p>
+	<br>
+	<h4 class="thumbnail"><strong>A Great Place To Live ,Work And Invest</strong></h4>
+	<h5><strong>Destination For Bussiness And Corporate</strong></h5>
+    <p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location">Thane is the 4th largest centre for generating bussiness and employment and 2nd overall in terms of 
+	employed people.Recently,TCS has announced plans to take up 2 million sp.ft.of office space in Thane,creating 30,000 
+	jobs significantly increasing the demand for quality residencial properties in Thane</p>
+		 <p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location">Other Corporates like bayer,Voltas,etc,are also looking at Thane with sizable interest.</p>	
+
+<br>
+<h5><strong>India's No.1 Investment Hotspot Offering Exponential investment Growth</strong></h5>
+    <p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location">Rated the No.1 Investment hotspot by CII-JLL,with the highest projected rental appreciation 
+	among major cities in India .Thane has witnessed over 117% appreciation in the last 5 year alone.</p>
+	  <p class="para_text"><img src="img/blueDot.png" alt="lodha amara codename Megastar location"><strong>Upcoming infrastructural developements :</strong>The metro,Monorail,HCMTR and flyovers,will
+	 see a tremendouse spurt in capital and rental values in Thane-60% appreciation from 2015 to 2020 as rated by Knight Frank</p>	
+          </article>
+          <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_2">
+ 
+      </article>
+           </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="footer-wrapper">
+ <footer id="footer"> 
+    <div class="container"> 
+      <div class="row">  
+         <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1">
+      &nbsp;
+      </article>   
+             <ul class="col-md-3 col-lg-3 col-sm-3 col-xs-3 grid_3 footer-widget-container">
+              <h4 class="white">Our Service</h4>
+              <p>24/7 Free Service</p>
+              <p>Free Site Visit</p>
+              <p>High Return On Investment</p>
+                      </ul>
+ <ul class="col-md-4 col-lg-4 col-sm-4 col-xs-4 grid_4 footer-widget-container">
+              <h4 class="white">More Detail</h4>
+             <a href="#"><p>Detail Of Lodha Amara-Thane</p></a>
+             <a href="#"><p>Amenities at Lodha Amara-Thane</p></a>
+             <a href="#"> <p>Lodha Amara-Thane Floor Plan Details</p></a>
+             <a href="#"><p>Lodha Amara-Thane Price Details</p></a>
+             <a href="#"><p>Lodha Amara-Thane Location</p></a>
+              <a href="#"> <p>Sitemap</p></a>
+           
+                      </ul>
+          <ul class="col-md-3 col-lg-3 col-sm-3 col-xs-3 grid_3 footer-widget-container">
+              <h4 class="white">Privacy &amp; You</h4>
+              <p><a href="http://www.1stprelaunch.com/privacy.html">Privacy &amp; Policy</a></p>
+              <p><a href="http://www.1stprelaunch.com/privacy.html">Terms &amp; Condition</a></p>
+              <p><a href="#">FAQs</a></p>            
+          </ul> 
+           <article class="col-md-1 col-lg-1 col-sm-1 col-xs-1 grid_1">
+      &nbsp;
+      </article>
+     
+      </div>
+    </div>
+  </footer>
+  <div class="copyright-container"> 
+    <div class="container"> 
+      <div class="row">
+        <section class="col-md-4">
+          <p>&copy;Copyright Horizon Financial Planner. All Rights Reserved.</p>
+        </section>
+        <section class="col-md-4">
+          <div class="footer-breadcrumbs"><a href="#home">Home</a><a href="#amenities">Amenities</a><a href="#floor-plan">Floor Plan</a><a href="#price">Price</a><a href="#nri">NRI Corner</a><a href="#location">Location</a></div>
+        </section>
+       <!-- <section class="col-md-4">
+          <div class="footer-breadcrumbs1"><a href="#" target="_blank"><img src="img/social icon/google_plus.png"></a>
+          <a href="#"><img src="img/social icon/facebook.png"></a>
+          <a href="#" target="_blank"><img src="img/social icon/twitter.png">
+          <a href="#"><img src="img/social icon/youtube.png"></a></div>
+        </section>-->
+      </div>
+    </div>
+  </div> </section><footer>
+    <div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-body">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+ </div>  <div class="navbar-collapse collapse" id="footer-body">
+                <ul class="nav navbar-nav">
+                    <li style="padding-right:10px"> <button class="btn btn-lg btn-medium btn-xs btn-sm" data-toggle="modal" data-target="#latest_price">Get Latest Price</button></li>
+                    <li style="padding-right:10px"> <button class="btn btn-lg btn-medium btn-xs btn-sm" data-toggle="modal" data-target="#download">Download Broucher</button></li>
+                    <li style="padding-right:10px"> <button class="btn btn-lg btn-medium btn-xs btn-sm"  data-toggle="modal" data-target="#home_presentation">Home Presentation</button></li>
+                    <li style="padding-right:10px"> <button class="btn btn-lg btn-medium btn-xs btn-sm"  data-toggle="modal" data-target="#Sample_flat">Actual Sample Flat</button></li>
+                    <li style="padding-right:10px"> <button class="btn btn-lg btn-medium btn-xs btn-sm" data-toggle="modal" data-target="#tour">Virtual Tour</button></li>
+                     <li style="padding-right:10px"> <button class="btn btn-lg btn-medium btn-xs btn-sm" data-toggle="modal" data-target="#reg">Register Now</button></li>
+  </ul>
+    <a href="#" class="scroll-up"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="right-sidebar hidden-sm hidden-xs visible-md visible-lg blink">
+<span onClick="return submitfrm();" class="form_style"><strong>&times;</strong></span>
+<center><h5 class="form_title"><strong>Contact Us</strong></h5></center>
+<div class="panel-body" style="height:40%; text-align:center;" >
+<p class="bg-info" id="msg12"></p>
+</div>
+ <div class="screen-reader-response modal modal-body"></div>
+      <center><form name="mfrm" id="mfrm" class="row" method="post">
+<div class="form-group" style="margin-bottom:2px">
+              <input type="text" class="form-control1" id="name" name="name" placeholder="Enter Your Name">
+            </div>
+     <div class="form-group" style="margin-bottom:2px">
+              <input type="email" class="form-control1" id="email" name="email" placeholder="Enter Email Address">
+            </div>
+ <div class="form-group" style="margin-bottom:2px">
+            <select name="Country" class="form-control1" id="cc">
+            <option value="India +91">India +91</option>     
+            <option value=" Afghanistan +93"> Afghanistan +93</option>
+ <option value=" Albania +355">Albania +355</option><option value="Algeria +213">Algeria +213</option><option value="Andorra +376">Andorra +376</option><option value="Angola +244">Angola +244</option><option value="Argentina +54">Argentina +54</option><option value="Armenia +374">Armenia +374</option><option value="Australia +61">Australia +61</option><option value="Austria +43">Austria +43</option><option value="Azerbaigan +994">Azerbaigan +994</option><option value="Bahrain +973">Bahrain +973</option><option value="Bangladesh +880">Bangladesh +880</option><option value="Belarus +375">Belarus +375</option><option value="Belgium +32">Belgium +32</option><option value="Bolivia +591">Bolivia +591</option><option value="Bosnia +387">Bosnia +387</option><option value="Brazil +55">Brazil +55</option><option value="Bulgaria +359">Bulgaria +359</option>
+<option value="Cameroon +237">Cameroon +237</option><option value="Canada +1">Canada +1</option><option value="Chad +235">Chad +235</option><option value="Chile +56">Chile +56</option><option value="China[People's Republic] +86">China[People's Republic] +86</option><option value="Colombia +57">Colombia +57</option><option value="Congo +242">Congo +242</option><option value="Costa Rica +506">Costa Rica +506</option><option value="Croatia +385">Croatia +385</option><option value="Cuba +53">Cuba +53</option><option value="Cyprus +357">Cyprus +357</option><option value="Czech Republic +420">Czech Republic +420</option><option value="Denmark +45">Denmark +45</option><option value="Ecuador +593">Ecuador +593</option>
+<option value="Egypt +20">Egypt +20</option><option value="France +33">France +33</option><option value="Georgia +995">Georgia +995</option><option value="Germany +49">Germany +49</option><option value="Hong Kong +852">Hong Kong +852</option><option value="Iceland +354">Iceland +354</option>
+<option value="Indonesia +62">Indonesia +62</option><option value="Iran +98">Iran +98</option><option value="Iraq +964">Iraq +964</option><option value="Ireland +353">Ireland +353</option><option value="Italy +36">Italy +36</option><option value="Japan +81">Japan +81</option><option value="Kenya +254">Kenya +254</option><option value="Korea +85">Korea +85</option><option value="Liberia +231">Liberia +231</option><option value="Libya +218">Libya +218</option>
+<option value="Liechtenstein +41">Liechtenstein +41</option><option value="Nepal +977">Nepal +977</option><option value="New Zealand +64">New Zealand +64</option>
+<option value="Nigeria +234">Nigeria +234</option><option value="North Korea +850">North Korea +850</option><option value="Pakistan +92">Pakistan +92</option><option value="Romania +40">Romania +40</option><option value="Russia +70">Russia +70</option><option value="Saudi Arabia +966">Saudi Arabia +966</option>
+<option value="Senegal +221">Senegal +221</option><option value="Serbia +381">Serbia +381</option><option value="Singapore +65">Singapore +65</option><option value="Somalia +252">Somalia +252</option><option value="South Africa +27">South Africa +27</option><option value="Sri Lanka +94">Sri Lanka +94</option><option value="Sweden +46">Sweden +46</option><option value="Switzerland +41">Switzerland +41</option><option value="Turkey +90">Turkey +90</option><option value="United Arab Emirates +971">United Arab Emirates +971</option><option value="United Kingdom +44">United Kingdom +44</option><option value="USA +1">USA +1</option><option value="Zaire +243">Zaire +243</option><option value="Zambia +260">Zambia +260</option><option value="Zimbabwe +263">Zimbabwe +263</option> 
+   </select>
+          </div>
+            <div class="form-group" style="margin-bottom:2px">
+              <input type="mobile" class="form-control1" id="mobile" name="mobile" placeholder="Enter Contact Number">
+            </div>
+             <div class="form-group" style="margin-bottom:2px">
+          <select name="type" class="form-control1" id="type" required>
+            <option value="--Select Type--">--Select Type--</option>
+          <option value="1.5 BHK">1 BHK</option>
+          <option value="2 BHK">2 BHK</option>
+          <option value="3 BHK">3 BHK</option>
+         </select>
+          </div>
+   <div class="form-control antispam" style="margin-bottom:2px">
+              <input type="text" class="form-control1" name="url" placeholder="url"/>
+            </div>
+            <textarea class="form-control1" id="comment" rows="3" name="comment" placeholder="Comment"></textarea>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="accept" id="accept" checked>
+                I Agree to <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Privacy Policy</a><br>and <a href="http://www.1stprelaunch.com/privacy.html" target="_blank">Terms and Conditions. </a> </label>
+            </div>
+            <div class="form-group" align="center">
+      <button id="send12" class="btn btn-primary btn-md" type="button">
+         Send
+      </button>
+    </div>
+  </div>
+          </form></center>
+  </div>
+  </div>
+<script>
+$(function(){
+  var fullUrl =  location.protocol+'//'+location.hostname+(location.port ? ':'+location.port: '');
+    $("#send12").click(function(){      
+      var formData = $("#mfrm").serialize();
+      $("#msg12").text("Email sending Please wait..");
+                $.ajax({
+                url: fullUrl+'/send12',
+                type: 'POST',
+                data: formData,
+                success: function(result) {
+                                 $("#msg12").empty().text(result);
+                         },
+                error: function(e) {
+                                 $("#msg12").empty().text("There is some error to send email, Error code:"+e.status +", Error message:"+e.statusText);
+                       },
+                dataType: "html",
+                timeout: 60000
+            });
+    });
+});
+</script>
+<div class="left-sidebar_call2 blink hidden-sm hidden-xs visible-md visible-lg"><a href="#" data-toggle="modal" data-target="#myonline1"> <img src="img/left-sidebar-heading.jpg" alt="get_back" id="show-left"></a> 
+  </div>
+ <div class="left-sidebar hidden-sm hidden-xs visible-md visible-lg"><a href="#" data-toggle="modal" data-target="#myonline"> <img src="img/button-book-online.gif" alt="book online" class="img-responsive" width="100"></a> 
+  </div>
+ </div>
+   <div class="left-sidebar_call_us visible-sm visible-xs hidden-md hidden-lg">
+   <a href="tel://09833717888"><img src="images/call_us.jpg" alt="call"></a>
+ </div>
+ <div class="left-sidebar_get_back sidebar_button hidden-sm hidden-xs visible-md visible-lg">
+  <a href="#" data-toggle="modal" data-target="#group_booking"><h5 class="left_button_text" id="show-left" >Group Booking<img src="images/signal.gif" alt="group online" width="30" height="30"class="sidebar_button_image"></h5></a>
+ </div>
+  <div class="left-sidebar_txt hidden-sm hidden-xs visible-md visible-lg">
+  <img src="images/sh.png" width="800" alt="group online" class="img-responsive"></h5>
+ </div>
+ <div class="left-sidebar_call4 hidden-sm hidden-xs visible-md visible-lg">
+  <a href="#" data-toggle="modal" data-target="#visit_site" ><img src="img/imgs/site_visit.gif" alt="visit site"> </a>
+ </div>
+<div itemscope itemtype=”http://schema.org/Product”>
+<span itemprop="name">Lodha Amara-Thane</span>
+<div itemprop=aggregateRating itemscope itemtype="http://schema.org/AggregateRating">
+<span itemprop="ratingValue">4.5</span>
+out of <span itemprop="bestRating">5</span>
+based on <span itemprop="ratingCount">700</span> user ratings.
+</div>
+</div>
+<% include partials/scripts.ejs %>
+</body>
+</html>
